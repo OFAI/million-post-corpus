@@ -22,3 +22,9 @@
     background-color: #069;
     color: white;
 }
+
+@media (max-width: 960px) {
+    header {
+        padding-right: 0;
+    }
+}
