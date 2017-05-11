@@ -2,7 +2,7 @@
 
 ### A Data Set of German Online Discussions
 
-This is the home of the "One Million Posts" corpus, an annotated data set consisting of user comments posted to a German-language newspaper website.
+This is the home of the "One Million Posts" corpus, an annotated data set consisting of user comments posted to an Austrian newspaper website (in German language).
 
 This data set will be presented as a short paper at the [40th International ACM SIGIR Conference on Research and Development in Information Retrieval](http://sigir.org/sigir2017/) (SIGIR 2017):
 
@@ -26,9 +26,31 @@ Please cite this paper if you use the data set (BibTex below). You can download 
 
 ## Data Set Description
 
-[Der Standard](http://derstandard.at) is an Austrian daily broadsheet newspaper which had a circulation of more than 390,000 in the year 2015 (according to [http://www.media-analyse.at/table/2612](http://www.media-analyse.at/table/2612) , 2017-04-13). On the newspaper's website, there is a discussion section below each news article where readers engage in online discussions. Since this feature was introduced in 1999, a total of 54 million user posts have accumulated, and in 2015 alone, 7.6 million posts were authored by more than 52,000 distinct users.
+[Der Standard](http://derstandard.at) is an Austrian daily broadsheet newspaper. On the newspaper's website, there is a discussion section below each news article where readers engage in online discussions. The data set contains a selection of user posts from the 12 month time span from 2015-06-01 to 2016-05-31. There are 11,773 labeled and 1,000,000 unlabeled posts in the data set. The labeled posts were annotated by professional forum moderators employed by the newspaper.
 
-The data set contains a selection of user posts from the 12 month time span from 2015-06-01 to 2016-05-31. There are 11,773 labeled and 1,000,000 unlabeled posts in the data set. Detailed descriptions of the selection and annotation procedures are given in the paper.
+The data set contains the following data for each post:
+
+* **Post ID**
+* **Article ID**
+* **Headline** (max. 250 characters)
+* **Main Body** (max. 750 characters)
+* **User ID** (the user names used by the website have been re-mapped to new numeric IDs)
+* **Time stamp**
+* **Parent post** (replies give rise to tree-like discussion thread structures)
+* **Status** (online or deleted by a moderator)
+* **Number of positive votes** by other community members
+* **Number of negative votes** by other community members
+
+For each article, the data set contains the following data:
+
+* **Article ID**
+* **Publishing date**
+* **Topic Path** (e.g.: Newsroom / Sports / Motorsports / Formula 1)
+* **Title**
+* **Body**
+
+
+Detailed descriptions of the post selection and annotation procedures are given in the paper.
 
 ### Annotated Categories
 
@@ -68,6 +90,27 @@ Several of these categories are based on respective rules in the [community guid
 | Possibly Feedback | 1250 | 4639 | 5889 | 21 % |
 | Personal Stories | 1625 | 7711 | 9336 | 17 % |
 | Arguments Used | 1022 | 2577 | 3599 | 28 % |
+
+In addition to the post text (a **headline** of up to 250 characters plus a **body** of up to 750 characters, either of the two potentially empty) and the annotations, the data set also contains for each post the **user ID** (we have re-numbered all users present in the data set), the **time stamp**, 
+
+<table>
+<tr><td>Total number of posts</td><td align="right">1,011,773</td></tr>
+<tr><td>Number of unlabeled posts</td><td align="right">1,000,000</td></tr>
+<tr><td>Number of labeled posts</td><td align="right">11,773</td></tr>
+<tr><td>Number of category annotation decisions</td><td align="right">58,568</td></tr>
+<tr><td>Number of posts taken offline by moderators</td><td align="right">62,320</td></tr>
+<tr><td>Min/Median/Max post length (words)</td><td align="right">0 / 21 / 500</td></tr>
+<tr><td>Vocabulary size (≥ 5 occurrences)</td><td align="right">130,235</td></tr>
+<tr><td>Number of articles</td><td align="right">12,087</td></tr>
+<tr><td>Number of article topics</td><td align="right">1,229</td></tr>
+<tr><td>Number of users</td><td align="right">31,413</td></tr>
+<tr><td>Min/Median/Max number of posts per article</td><td align="right">1 / 22 / 3,656</td></tr>
+<tr><td>Min/Median/Max number of posts per topic</td><td align="right">1 / 142 / 44,329</td></tr>
+<tr><td>Min/Median/Max number of posts per user</td><td align="right">1 / 5 / 4,682</td></tr>
+<tr><td>Min/Median/Max number of users per article</td><td align="right">1 / 15 / 1,371</td></tr>
+<tr><td>Min/Median/Max number of users per topic</td><td align="right">1 / 78 / 6,874</td></tr>
+<tr><td>Number of pos./neg. community votes</td><td align="right">3,824,806 / 1,096,300</td></tr>
+</table>
 
 ## License
 
