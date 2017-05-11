@@ -55,10 +55,10 @@ In certain fora, users are encouraged to share their personal stories, experienc
 * **Arguments Used** (yes/no)  
 It is desirable for users to back their statements with rational argumentation, reasoning and sources.
 
-Several of these categories are based on respective rules in the community guidelines of the website (http://derstandard.at/2934632/Forenregeln-Community-Richtlinien).
+Several of these categories are based on respective rules in the [community guidelines of the website](http://derstandard.at/2934632/Forenregeln-Community-Richtlinien).
 
 | Category | Does Apply | Does Not Apply | Total | Percentage |
-| --- | --- | --- | --- | --- |
+| --- | ---: | ---: | ---: | ---: |
 | SentimentNegative | 1691 | 1908 | 3599 | 47% |
 | SentimentNeutral | 1865 | 1734 | 3599 | 52% |
 | SentimentPositive | 43 | 3556 | 3599 | 1% |
@@ -68,7 +68,6 @@ Several of these categories are based on respective rules in the community guide
 | PossiblyFeedback | 1250 | 4639 | 5889 | 21% |
 | PersonalStories | 1625 | 7711 | 9336 | 17% |
 | ArgumentsUsed | 1022 | 2577 | 3599 | 28% |
-
 
 ## License
 
