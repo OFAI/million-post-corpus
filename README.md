@@ -59,15 +59,15 @@ Several of these categories are based on respective rules in the [community guid
 
 | Category | Does Apply | Does Not Apply | Total | Percentage |
 | --- | ---: | ---: | ---: | ---: |
-| SentimentNegative | 1691 | 1908 | 3599 | 47 % |
-| SentimentNeutral | 1865 | 1734 | 3599 | 52 % |
-| SentimentPositive | 43 | 3556 | 3599 | 1 % |
-| OffTopic | 580 | 3019 | 3599 | 16 % |
+| Sentiment Negative | 1691 | 1908 | 3599 | 47 % |
+| Sentiment Neutral | 1865 | 1734 | 3599 | 52 % |
+| Sentiment Positive | 43 | 3556 | 3599 | 1 % |
+| Off-Topic | 580 | 3019 | 3599 | 16 % |
 | Inappropriate | 303 | 3296 | 3599 | 8 % |
 | Discriminating | 282 | 3317 | 3599 | 8 % |
-| PossiblyFeedback | 1250 | 4639 | 5889 | 21 % |
-| PersonalStories | 1625 | 7711 | 9336 | 17 % |
-| ArgumentsUsed | 1022 | 2577 | 3599 | 28 % |
+| Possibly Feedback | 1250 | 4639 | 5889 | 21 % |
+| Personal Stories | 1625 | 7711 | 9336 | 17 % |
+| Arguments Used | 1022 | 2577 | 3599 | 28 % |
 
 ## License
 

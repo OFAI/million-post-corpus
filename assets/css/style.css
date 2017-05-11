@@ -1,0 +1,8 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.logolink img {
+    margin-bottom: 1em;
+}
