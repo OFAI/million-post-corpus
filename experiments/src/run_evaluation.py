@@ -18,11 +18,11 @@ import evaluate_lstm
 
 con = None
 methodmodules = OrderedDict([
-    # [ 'BOW', evaluate_bow ],
-    # [ 'MNB', evaluate_mnb ],
-    # [ 'NBSVM', evaluate_nbsvm ],
-    # [ 'BOCID', evaluate_bocid ],
-    # [ 'D2V', evaluate_d2v ],
+    [ 'BOW', evaluate_bow ],
+    [ 'MNB', evaluate_mnb ],
+    [ 'NBSVM', evaluate_nbsvm ],
+    [ 'BOCID', evaluate_bocid ],
+    [ 'D2V', evaluate_d2v ],
     [ 'LSTM', evaluate_lstm ],
 ])
 

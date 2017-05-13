@@ -30,3 +30,4 @@ nice python src/train_word2vec.py   2>&1 | tee logs/word2vec_log.txt
 nice python src/bocid_clustering.py 2>&1 | tee logs/bocid_clustering_log.txt
 nice python src/train_doc2vec.py    2>&1 | tee logs/doc2vec_log.txt
 nice python src/run_evaluation.py   2>&1 | tee logs/evaluation_log.txt
+python src/result_plots_and_tables.py
