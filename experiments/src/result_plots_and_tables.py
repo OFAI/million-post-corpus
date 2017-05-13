@@ -135,6 +135,7 @@ def make_table(categories, methods, precisions, recalls, f1s, kind, filename):
         src += '</table>\n'
     with open(filename, 'w') as f:
         f.write(src)
+    print('Result %s table written to %s' % (kind, filename))
 
 def make_plot(categories, methods, precisions, recalls, f1s, filename):
     width = 1 / (len(methods) + 1)
@@ -165,7 +166,9 @@ def make_plot(categories, methods, precisions, recalls, f1s, filename):
     axes[2].set_xlim((-2 * width, xs[-1] + 10 * width))
 
     f.tight_layout()
-    f.savefig(os.path.join(conf.PLOTDIR, 'results.png'))
+    plotfile = os.path.join(conf.PLOTDIR, 'results.png')
+    f.savefig(plotfile)
+    print('Result plot written to %s' % plotfile)
 
 if __name__ == '__main__':
     con = sqlite3.connect(conf.RESULTDB)
