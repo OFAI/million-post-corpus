@@ -22,6 +22,151 @@ name_map = {
     'SentimentPositive': 'Positive',
 }
 
+def make_table(categories, methods, precisions, recalls, f1s, kind, filename):
+    if kind not in [ 'html', 'latex']:
+        print('Unknown value for "kind" operator, skipping table creation.')
+        return
+
+    if kind == 'latex':
+        rowbegin = ''
+        betweencells = ' & '
+        rowend = '\\\\\n'
+        inexistent_cell = ' & '
+        bold = lambda x: '\\textbf{%s}' % x
+    elif kind == 'html':
+        rowbegin = '<tr><td>'
+        betweencells = '</td><td>'
+        rowend = '</td></tr>\n'
+        inexistent_cell = ''
+        bold = lambda x: '<b>%s</b>' % x
+
+    wins = {
+        'precision': {},
+        'recall': {},
+        'f1': {},
+    }
+
+    src = ''
+    if kind == 'latex':
+        src += ('\\begin{tabular}{@{}l@{\hspace{2mm}}l@{\hspace{2mm}}' +
+            '@{\\hspace{3mm}}'.join('c' * len(methods)) +
+            '@{}}\n')
+        src += '\\toprule\n'
+    elif kind == 'html':
+        src += '<table>\n'
+    heads = [ 'Category', 'Meas.' ] + methods
+    src += rowbegin + betweencells.join(heads) + rowend
+    if kind == 'latex':
+        src += '\\midrule\n'
+    for c in categories:
+        if kind == 'latex':
+            src += '\\multirow{3}{*}{' + name_map[c] + '}'
+        elif kind == 'html':
+            src += '<tr><td rowspan="3">' + name_map[c]
+        src += betweencells + 'Prec.'
+        values = [ precisions[(m, c)] for m in methods ]
+        for i, v in enumerate(values):
+            val = '%.4f' % v
+            if v == max(values):
+                val = bold(val)
+                if methods[i] in wins['precision']:
+                    wins['precision'][methods[i]] += 1
+                else:
+                    wins['precision'][methods[i]] = 1
+            src += betweencells + val
+        src += rowend
+
+        src += rowbegin + inexistent_cell + 'Rec. '
+        values = [ recalls[(m, c)] for m in methods ]
+        for i, v in enumerate(values):
+            val = '%.4f' % v
+            if v == max(values):
+                val = bold(val)
+                if methods[i] in wins['recall']:
+                    wins['recall'][methods[i]] += 1
+                else:
+                    wins['recall'][methods[i]] = 1
+            src += betweencells + val
+        src += rowend
+
+        src += rowbegin + inexistent_cell
+        if kind == 'latex':
+            src += '$F_1$.'
+        elif kind == 'html':
+            src += 'F1'
+        values = [ f1s[(m, c)] for m in methods ]
+        for i, v in enumerate(values):
+            val = '%.4f' % v
+            if v == max(values):
+                val = bold(val)
+                if methods[i] in wins['f1']:
+                    wins['f1'][methods[i]] += 1
+                else:
+                    wins['f1'][methods[i]] = 1
+            src += betweencells + val
+        if kind == 'latex' and c != categories[-1]:
+            src += '\\\\[0.5em]\n'
+        else:
+            src += rowend
+
+    if kind == 'latex':
+        src += '\\midrule\n\\multirow{3}{*}{Wins}'
+    elif kind == 'html':
+        src += '<tr><td rowspan="3">Wins'
+    src += betweencells + 'Prec.'
+    for m in methods:
+        src += betweencells + str(wins['precision'].get(m, 0))
+    src += rowend + rowbegin + inexistent_cell + 'Rec.'
+    for m in methods:
+        src += betweencells + str(wins['recall'].get(m, 0))
+    src += rowend + rowbegin + inexistent_cell
+    if kind == 'latex':
+        src += '$F_1$'
+    elif kind == 'html':
+        src += 'F1'
+    for m in methods:
+        src += betweencells + str(wins['f1'].get(m, 0))
+    src += rowend
+
+    if kind == 'latex':
+        src += '\\bottomrule\n'
+        src += '\\end{tabular}\n'
+    elif kind == 'html':
+        src += '</table>\n'
+    with open(filename, 'w') as f:
+        f.write(src)
+
+def make_plot(categories, methods, precisions, recalls, f1s, filename):
+    width = 1 / (len(methods) + 1)
+    f, axes = plt.subplots(3, 1, figsize=(10,8))
+    for i, m in enumerate(methods):
+        xs = numpy.arange(len(categories)) + i * width
+        vals = [ precisions[(m, c)] for c in categories ]
+        axes[0].bar(xs, vals, width=width, label=m)
+        vals = [ recalls[(m, c)] for c in categories ]
+        axes[1].bar(xs, vals, width=width, label=m)
+        vals = [ f1s[(m, c)] for c in categories ]
+        axes[2].bar(xs, vals, width=width, label=m)
+
+    axes[0].set_xticks(numpy.arange(len(categories)) + 2.5 * width)
+    axes[1].set_xticks(numpy.arange(len(categories)) + 2.5 * width)
+    axes[2].set_xticks(numpy.arange(len(categories)) + 2.5 * width)
+    axes[0].set_xticklabels([ name_map[c] for c in categories ])
+    axes[1].set_xticklabels([ name_map[c] for c in categories ])
+    axes[2].set_xticklabels([ name_map[c] for c in categories ])
+    axes[0].legend()
+    axes[1].legend()
+    axes[2].legend()
+    axes[0].set_ylabel('Precision')
+    axes[1].set_ylabel('Recall')
+    axes[2].set_ylabel('F1-score')
+    axes[0].set_xlim((-2 * width, xs[-1] + 10 * width))
+    axes[1].set_xlim((-2 * width, xs[-1] + 10 * width))
+    axes[2].set_xlim((-2 * width, xs[-1] + 10 * width))
+
+    f.tight_layout()
+    f.savefig(os.path.join(conf.PLOTDIR, 'results.png'))
+
 if __name__ == '__main__':
     con = sqlite3.connect(conf.RESULTDB)
     con.row_factory = sqlite3.Row
@@ -64,70 +209,9 @@ if __name__ == '__main__':
                 recalls[(m, c)] = recall_score(y_true, y_pred)
                 f1s[(m, c)] = f1_score(y_true, y_pred)
 
-    print('\\begin{tabular}{@{}l@{\hspace{2mm}}l@{\hspace{2mm}}' +
-        '@{\\hspace{3mm}}'.join('l' * len(methods)) +
-        '@{}}')
-    print('\\toprule')
-    print('Category & Meas. & ' + ' & '.join(methods) + '\\\\')
-    print('\\midrule')
-    for c in categories:
-        print('\\multirow{3}{*}{' + name_map[c] + '} & Prec. ', end='')
-        values = [ precisions[(m, c)] for m in methods ]
-        for v in values:
-            if v == max(values):
-                print(' & \\textbf{%.4f}' % v, end='')
-            else:
-                print(' & %.4f' % v, end='')
-        print('\\\\')
-        print(' & Rec. ', end='')
-        values = [ recalls[(m, c)] for m in methods ]
-        for v in values:
-            if v == max(values):
-                print(' & \\textbf{%.4f}' % v, end='')
-            else:
-                print(' & %.4f' % v, end='')
-        print('\\\\')
-        print(' & $F_1$. ', end='')
-        values = [ f1s[(m, c)] for m in methods ]
-        for v in values:
-            if v == max(values):
-                print(' & \\textbf{%.4f}' % v, end='')
-            else:
-                print(' & %.4f' % v, end='')
-        if c == categories[-1]:
-            print('\\\\')
-        else:
-            print('\\\\[0.5em]')
-    print('\\bottomrule')
-    print('\\end{tabular}')
-
-
-    width = 1 / (len(methods) + 1)
-    f, axes = plt.subplots(3, 1, figsize=(10,8))
-    for i, m in enumerate(methods):
-        xs = numpy.arange(len(categories)) + i * width
-        vals = [ precisions[(m, c)] for c in categories ]
-        axes[0].bar(xs, vals, width=width, label=m)
-        vals = [ recalls[(m, c)] for c in categories ]
-        axes[1].bar(xs, vals, width=width, label=m)
-        vals = [ f1s[(m, c)] for c in categories ]
-        axes[2].bar(xs, vals, width=width, label=m)
-
-    axes[0].set_xticks(numpy.arange(len(categories)) + 2.5 * width)
-    axes[1].set_xticks(numpy.arange(len(categories)) + 2.5 * width)
-    axes[2].set_xticks(numpy.arange(len(categories)) + 2.5 * width)
-    axes[0].set_xticklabels([ name_map[c] for c in categories ])
-    axes[1].set_xticklabels([ name_map[c] for c in categories ])
-    axes[2].set_xticklabels([ name_map[c] for c in categories ])
-    axes[0].legend()
-    axes[1].legend()
-    axes[2].legend()
-    axes[0].set_ylabel('Precision')
-    axes[1].set_ylabel('Recall')
-    axes[2].set_ylabel('F1-score')
-    axes[0].set_xlim((-2 * width, xs[-1] + 10 * width))
-    axes[1].set_xlim((-2 * width, xs[-1] + 10 * width))
-    axes[2].set_xlim((-2 * width, xs[-1] + 10 * width))
-
-    f.tight_layout()
-    f.savefig(os.path.join(conf.PLOTDIR, 'results.png'))
+    htmlfile = os.path.join(conf.TABLEDIR, 'results.html')
+    make_table(categories, methods, precisions, recalls, f1s, 'html', htmlfile)
+    latexfile = os.path.join(conf.TABLEDIR, 'results.tex')
+    make_table(categories, methods, precisions, recalls, f1s, 'latex', latexfile)
+    plotfile = os.path.join(conf.PLOTDIR, 'results.png')
+    make_plot(categories, methods, precisions, recalls, f1s, plotfile)
