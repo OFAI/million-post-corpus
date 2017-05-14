@@ -41,6 +41,8 @@
           By downloading the data set you agree to <a href="">the license</a>
         </p>
 
+        <ul id="navi"></ul>
+
       </header>
       <section>
 
@@ -59,9 +61,15 @@
     <script src="{{ '/assets/js/jquery-3.2.1.slim.min.js' | relative_url }}"></script>
 
     <script>
-      $(document).ready(function(){
+      $(document).ready(function() {
+
         $("h2").wrap(function() {
           return '<a name="' + this.id + '"></a>';
+        });
+        $("h2").each(function(index) {
+          $('#navi').append('<li><a href="#' + this.id + '">' + this.text() + '</a></li>');
+        });
+
       });
     </script>
 
