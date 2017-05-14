@@ -67,7 +67,7 @@
           return '<a name="' + this.id + '"></a>';
         });
         $("h2").each(function(index) {
-          $('#navi').append('<li><a href="#' + this.id + '">' + this.text() + '</a></li>');
+          $('#navi').append('<li><a href="#' + this.id + '">' + $(this).text() + '</a></li>');
         });
 
       });
