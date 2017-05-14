@@ -44,10 +44,21 @@ table {
 
 #navi {
     background: none;
+    border: none;
+}
+
+#navi li {
+    border: none;
+    width: inherit;
+    float: inherit;
 }
 
 #navi a {
     font-size: inherit;
-    color: inherit;
+    color: #39c;
     display: inherit;
+}
+
+#navi a:hover {
+    color: #069;
 }
