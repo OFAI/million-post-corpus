@@ -60,7 +60,8 @@
 
     <script>
       $(document).ready(function(){
-        $("h2").wrap('<a name="' + this.id + '"></a>');
+        $("h2").wrap(function() {
+          return '<a name="' + this.id + '"></a>';
       });
     </script>
 
