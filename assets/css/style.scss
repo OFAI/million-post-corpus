@@ -27,6 +27,9 @@
     header {
         padding-right: 0;
     }
+}
+
+@media (min-width: 960px) {
     div.wrapper {
         width: 960px;
     }
