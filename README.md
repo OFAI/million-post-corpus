@@ -4,25 +4,7 @@
 
 This is the home of the "One Million Posts" corpus, an annotated data set consisting of user comments posted to an Austrian newspaper website (in German language).
 
-This data set will be presented as a short paper at the [40th International ACM SIGIR Conference on Research and Development in Information Retrieval](http://sigir.org/sigir2017/) (SIGIR 2017):
-
-> Dietmar Schabus, Marcin Skowron, Martin Trapp  
-**One Million Posts: A Data Set of German Online Discussions**  
-Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)  
-Tokyo, Japan, August 2016
-
-Please cite this paper if you use the data set (BibTex below). You can download a [preprint version of the paper here]().
-
-```
-@InProceedings{Schabus2017,
-  Author    = {Dietmar Schabus and Marcin Skowron and Martin Trapp},
-  Title     = {One Million Posts: A Data Set of German Online Discussions},
-  Booktitle = {Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)},
-  Year      = {2017},
-  Address   = {Tokyo, Japan},
-  Month     = aug
-}
-```
+This data set will be presented as a short paper at the [40th International ACM SIGIR Conference on Research and Development in Information Retrieval](http://sigir.org/sigir2017/) (SIGIR 2017). See the Citation section below.
 
 ## Data Set Description
 
@@ -79,6 +61,31 @@ It is desirable for users to back their statements with rational argumentation, 
 
 Several of these categories are based on respective rules in the [community guidelines of the website](http://derstandard.at/2934632/Forenregeln-Community-Richtlinien).
 
+## Statistics
+
+The following table contains some relevant statistics for the data set.
+
+<table>
+<tr><td>Total number of posts</td><td align="right">1,011,773</td></tr>
+<tr><td>Number of unlabeled posts</td><td align="right">1,000,000</td></tr>
+<tr><td>Number of labeled posts</td><td align="right">11,773</td></tr>
+<tr><td>Number of category annotation decisions</td><td align="right">58,568</td></tr>
+<tr><td>Number of posts taken offline by moderators</td><td align="right">62,320</td></tr>
+<tr><td>Min/Median/Max post length (words)</td><td align="right">0 / 21 / 500</td></tr>
+<tr><td>Vocabulary size (≥ 5 occurrences)</td><td align="right">129,070</td></tr>
+<tr><td>Number of articles</td><td align="right">12,087</td></tr>
+<tr><td>Number of article topics</td><td align="right">1,229</td></tr>
+<tr><td>Number of users</td><td align="right">31,413</td></tr>
+<tr><td>Min/Median/Max number of posts per article</td><td align="right">1 / 22 / 3,656</td></tr>
+<tr><td>Min/Median/Max number of posts per topic</td><td align="right">1 / 142 / 44,329</td></tr>
+<tr><td>Min/Median/Max number of posts per user</td><td align="right">1 / 5 / 4,682</td></tr>
+<tr><td>Min/Median/Max number of users per article</td><td align="right">1 / 15 / 1,371</td></tr>
+<tr><td>Min/Median/Max number of users per topic</td><td align="right">1 / 78 / 6,874</td></tr>
+<tr><td>Number of pos./neg. community votes</td><td align="right">3,824,806 / 1,096,300</td></tr>
+</table>
+
+The following table gives the number of labeled examples per category.
+
 | Category | Does Apply | Does Not Apply | Total | Percentage |
 | --- | ---: | ---: | ---: | ---: |
 | Sentiment Negative | 1691 | 1908 | 3599 | 47 % |
@@ -91,29 +98,39 @@ Several of these categories are based on respective rules in the [community guid
 | Personal Stories | 1625 | 7711 | 9336 | 17 % |
 | Arguments Used | 1022 | 2577 | 3599 | 28 % |
 
-In addition to the post text (a **headline** of up to 250 characters plus a **body** of up to 750 characters, either of the two potentially empty) and the annotations, the data set also contains for each post the **user ID** (we have re-numbered all users present in the data set), the **time stamp**,
+In the first annotation round, three moderators annotated 1,000 randomly selected posts. From this subset of the data, we can estimate the category distributions. The following bar chart shows the distribution for the three annotators (A, B, C) and after a majority vote per post.
 
-<table>
-<tr><td>Total number of posts</td><td style="text-align: right;">1,011,773</td></tr>
-<tr><td>Number of unlabeled posts</td><td style="text-align: right;">1,000,000</td></tr>
-<tr><td>Number of labeled posts</td><td style="text-align: right;">11,773</td></tr>
-<tr><td>Number of category annotation decisions</td><td style="text-align: right;">58,568</td></tr>
-<tr><td>Number of posts taken offline by moderators</td><td style="text-align: right;">62,320</td></tr>
-<tr><td>Min/Median/Max post length (words)</td><td style="text-align: right;">0 / 21 / 500</td></tr>
-<tr><td>Vocabulary size (≥ 5 occurrences)</td><td style="text-align: right;">129,070</td></tr>
-<tr><td>Number of articles</td><td style="text-align: right;">12,087</td></tr>
-<tr><td>Number of article topics</td><td style="text-align: right;">1,229</td></tr>
-<tr><td>Number of users</td><td style="text-align: right;">31,413</td></tr>
-<tr><td>Min/Median/Max number of posts per article</td><td style="text-align: right;">1 / 22 / 3,656</td></tr>
-<tr><td>Min/Median/Max number of posts per topic</td><td style="text-align: right;">1 / 142 / 44,329</td></tr>
-<tr><td>Min/Median/Max number of posts per user</td><td style="text-align: right;">1 / 5 / 4,682</td></tr>
-<tr><td>Min/Median/Max number of users per article</td><td style="text-align: right;">1 / 15 / 1,371</td></tr>
-<tr><td>Min/Median/Max number of users per topic</td><td style="text-align: right;">1 / 78 / 6,874</td></tr>
-<tr><td>Number of pos./neg. community votes</td><td style="text-align: right;">3,824,806 / 1,096,300</td></tr>
-</table>
+![category distribution chart](images/category_distribution.png)
+
+Furthermore, this subset can be used to compute [Cohen's Kappa](https://en.wikipedia.org/wiki/Cohen's_kappa) values to quantify the inter-rater agreement. The following bar chart shows the agreement for each pair of moderators and the average across all pairs for each category.
+
+![inter-rater agreement chart](images/inter_rater_agreement.png)
 
 ## License
 
+TBD
+
+## Citation
+
+The data set was first presented at [SIGIR 2017](http://sigir.org/sigir2017/):
+
+> Dietmar Schabus, Marcin Skowron, Martin Trapp  
+**One Million Posts: A Data Set of German Online Discussions**  
+Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)  
+Tokyo, Japan, August 2016
+
+Please cite this paper if you use the data set (BibTex below). You can download a [preprint version of the paper here]().
+
+```
+@InProceedings{Schabus2017,
+  Author    = {Dietmar Schabus and Marcin Skowron and Martin Trapp},
+  Title     = {One Million Posts: A Data Set of German Online Discussions},
+  Booktitle = {Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)},
+  Year      = {2017 (accepted)},
+  Address   = {Tokyo, Japan},
+  Month     = aug
+}
+```
 ## Experiments
 
 The code and instructions to reproduce the experimental results presented in the paper can be found in the [experiments folder in the GitHub repository](https://github.com/OFAI/million-post-corpus/tree/master/experiments).
