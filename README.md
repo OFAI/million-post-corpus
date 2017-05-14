@@ -26,7 +26,7 @@ Please cite this paper if you use the data set (BibTex below). You can download 
 
 ## Data Set Description
 
-[Der Standard](http://derstandard.at) is an Austrian daily broadsheet newspaper. On the newspaper's website, there is a discussion section below each news article where readers engage in online discussions. The data set contains a selection of user posts from the 12 month time span from 2015-06-01 to 2016-05-31. There are 11,773 labeled and 1,000,000 unlabeled posts in the data set. The labeled posts were annotated by professional forum moderators employed by the newspaper.
+[DER STANDARD](http://derstandard.at) is an Austrian daily broadsheet newspaper. On the newspaper's website, there is a discussion section below each news article where readers engage in online discussions. The data set contains a selection of user posts from the 12 month time span from 2015-06-01 to 2016-05-31. There are 11,773 labeled and 1,000,000 unlabeled posts in the data set. The labeled posts were annotated by professional forum moderators employed by the newspaper.
 
 The data set contains the following data for each post:
 
@@ -87,7 +87,7 @@ Several of these categories are based on respective rules in the [community guid
 | Off-Topic | 580 | 3019 | 3599 | 16 % |
 | Inappropriate | 303 | 3296 | 3599 | 8 % |
 | Discriminating | 282 | 3317 | 3599 | 8 % |
-| Possibly Feedback | 1250 | 4639 | 5889 | 21 % |
+| Possibly Feedback | 1301 | 4737 | 6038 | 22 % |
 | Personal Stories | 1625 | 7711 | 9336 | 17 % |
 | Arguments Used | 1022 | 2577 | 3599 | 28 % |
 
@@ -100,7 +100,7 @@ In addition to the post text (a **headline** of up to 250 characters plus a **bo
 <tr><td>Number of category annotation decisions</td><td align="right">58,568</td></tr>
 <tr><td>Number of posts taken offline by moderators</td><td align="right">62,320</td></tr>
 <tr><td>Min/Median/Max post length (words)</td><td align="right">0 / 21 / 500</td></tr>
-<tr><td>Vocabulary size (≥ 5 occurrences)</td><td align="right">130,235</td></tr>
+<tr><td>Vocabulary size (≥ 5 occurrences)</td><td align="right">129,070</td></tr>
 <tr><td>Number of articles</td><td align="right">12,087</td></tr>
 <tr><td>Number of article topics</td><td align="right">1,229</td></tr>
 <tr><td>Number of users</td><td align="right">31,413</td></tr>
@@ -116,6 +116,8 @@ In addition to the post text (a **headline** of up to 250 characters plus a **bo
 
 ## Experiments
 
+The code and instructions to reproduce the experimental results presented in the paper can be found in the [experiments folder in the GitHub repository](https://github.com/OFAI/million-post-corpus/tree/master/experiments).
+
 ## Acknowledgments
 
-This research was partially funded by the [Google Digital News Initiative](https://www.digitalnewsinitiative.com). We thank Der Standard and their moderators for the interesting collaboration and the annotation of the presented corpus. The GPU used for this research was donated by [NVIDIA](https://developer.nvidia.com/academic_gpu_seeding).
+This research was partially funded by the [Google Digital News Initiative](https://www.digitalnewsinitiative.com). We thank [DER STANDARD](http://derstandard.at) and their moderators for the interesting collaboration and the annotation of the presented corpus. The GPU used for this research was donated by [NVIDIA](https://developer.nvidia.com/academic_gpu_seeding).
