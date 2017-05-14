@@ -43,8 +43,10 @@ table {
 }
 
 #navi {
+    position: inherit;
     background: none;
     border: none;
+    height: inherit;
 }
 
 #navi li {
