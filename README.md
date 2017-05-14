@@ -66,22 +66,22 @@ Several of these categories are based on respective rules in the [community guid
 The following table contains some relevant statistics for the data set.
 
 <table>
-<tr><td>Total number of posts</td><td align="right">1,011,773</td></tr>
-<tr><td>Number of unlabeled posts</td><td align="right">1,000,000</td></tr>
-<tr><td>Number of labeled posts</td><td align="right">11,773</td></tr>
-<tr><td>Number of category annotation decisions</td><td align="right">58,568</td></tr>
-<tr><td>Number of posts taken offline by moderators</td><td align="right">62,320</td></tr>
-<tr><td>Min/Median/Max post length (words)</td><td align="right">0 / 21 / 500</td></tr>
-<tr><td>Vocabulary size (≥ 5 occurrences)</td><td align="right">129,070</td></tr>
-<tr><td>Number of articles</td><td align="right">12,087</td></tr>
-<tr><td>Number of article topics</td><td align="right">1,229</td></tr>
-<tr><td>Number of users</td><td align="right">31,413</td></tr>
-<tr><td>Min/Median/Max number of posts per article</td><td align="right">1 / 22 / 3,656</td></tr>
-<tr><td>Min/Median/Max number of posts per topic</td><td align="right">1 / 142 / 44,329</td></tr>
-<tr><td>Min/Median/Max number of posts per user</td><td align="right">1 / 5 / 4,682</td></tr>
-<tr><td>Min/Median/Max number of users per article</td><td align="right">1 / 15 / 1,371</td></tr>
-<tr><td>Min/Median/Max number of users per topic</td><td align="right">1 / 78 / 6,874</td></tr>
-<tr><td>Number of pos./neg. community votes</td><td align="right">3,824,806 / 1,096,300</td></tr>
+<tr><td>Total number of posts</td><td style="text-align: right;">1,011,773</td></tr>
+<tr><td>Number of unlabeled posts</td><td style="text-align: right;">1,000,000</td></tr>
+<tr><td>Number of labeled posts</td><td style="text-align: right;">11,773</td></tr>
+<tr><td>Number of category annotation decisions</td><td style="text-align: right;">58,568</td></tr>
+<tr><td>Number of posts taken offline by moderators</td><td style="text-align: right;">62,320</td></tr>
+<tr><td>Min/Median/Max post length (words)</td><td style="text-align: right;">0 / 21 / 500</td></tr>
+<tr><td>Vocabulary size (≥ 5 occurrences)</td><td style="text-align: right;">129,070</td></tr>
+<tr><td>Number of articles</td><td style="text-align: right;">12,087</td></tr>
+<tr><td>Number of article topics</td><td style="text-align: right;">1,229</td></tr>
+<tr><td>Number of users</td><td style="text-align: right;">31,413</td></tr>
+<tr><td>Min/Median/Max number of posts per article</td><td style="text-align: right;">1 / 22 / 3,656</td></tr>
+<tr><td>Min/Median/Max number of posts per topic</td><td style="text-align: right;">1 / 142 / 44,329</td></tr>
+<tr><td>Min/Median/Max number of posts per user</td><td style="text-align: right;">1 / 5 / 4,682</td></tr>
+<tr><td>Min/Median/Max number of users per article</td><td style="text-align: right;">1 / 15 / 1,371</td></tr>
+<tr><td>Min/Median/Max number of users per topic</td><td style="text-align: right;">1 / 78 / 6,874</td></tr>
+<tr><td>Number of pos./neg. community votes</td><td style="text-align: right;">3,824,806 / 1,096,300</td></tr>
 </table>
 
 The following table gives the number of labeled examples per category.
