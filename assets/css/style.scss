@@ -50,13 +50,16 @@ table {
 #navi li {
     border: none;
     width: inherit;
+    height: inherit;
     float: inherit;
 }
 
 #navi a {
-    font-size: inherit;
     color: #39c;
+    text-align: left;
+    font-size: inherit;
     display: inherit;
+    height: inherit;
 }
 
 #navi a:hover {
