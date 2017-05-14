@@ -60,9 +60,7 @@
 
     <script>
       $(document).ready(function(){
-        $("h2").each(function(index) {
-          this.wrap('<a name="' + this.id + '"></a>');
-        });
+        $("h2").wrap('<a name="' + this.id + '"></a>');
       });
     </script>
 
