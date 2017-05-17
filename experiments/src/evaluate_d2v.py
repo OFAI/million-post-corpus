@@ -24,7 +24,7 @@ class D2V_feature_extractor(object):
             res.append(v)
         return numpy.vstack(res)
 
-def evaluate(cat, folds, txt_train, txt_test, y_train, y_test):
+def evaluate(cat, fold, txt_train, txt_test, y_train, y_test):
     d2vmodelfile = os.path.join(conf.D2V_DIR, 'model')
     if not os.path.exists(d2vmodelfile):
         print('Doc2vec model file "%s" not found' % d2vmodelfile)

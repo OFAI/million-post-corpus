@@ -216,7 +216,17 @@ def evaluate(cat, fold, txt_train, txt_test, y_train, y_test):
     numpy.random.seed(conf.SEED)
     tf.set_random_seed(conf.SEED)
     model = LSTMModel(emb, y.shape[1])
+
+    # The following, in combination with
+    #   export CUDA_VISIBLE_DEVICES=""
+    # in the shell disables all parallelism, which leads to reproducible results
+    # but takes a very long time to complete
+    # sess = tf.Session(config=tf.ConfigProto(
+        # inter_op_parallelism_threads=1
+        # intra_op_parallelism_threads=1))
+
     sess = tf.Session()
+
     sess.run(model.init_op)
     no_of_batches = math.ceil(len(X) / conf.LSTM_BATCHSIZE)
     losses = []
