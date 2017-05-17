@@ -117,7 +117,7 @@ The data set was first presented at [SIGIR 2017](http://sigir.org/sigir2017/):
 > Dietmar Schabus, Marcin Skowron, Martin Trapp  
 **One Million Posts: A Data Set of German Online Discussions**  
 Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)  
-Tokyo, Japan, August 2016
+Tokyo, Japan, August 2017
 
 Please cite this paper if you use the data set (BibTex below). You can download a [preprint version of the paper here]().
 
