@@ -1,0 +1,748 @@
+2017-05-18 11:26:02,637 Building doc2vec vocabulary...
+2017-05-18 11:26:02,637 [doc2vec] : Building doc2vec vocabulary...
+2017-05-18 11:26:02,638 [doc2vec] : collecting all words and their counts
+2017-05-18 11:26:02,638 Fetching unlabeled posts from database
+2017-05-18 11:26:02,638 [doc2vec] : Fetching unlabeled posts from database
+2017-05-18 11:26:02,803 Normalizing and tokenizing
+2017-05-18 11:26:02,803 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:26:05,723 [doc2vec] : PROGRESS: at example #0, processed 0 words (0/s), 0 word types, 0 tags
+2017-05-18 11:26:05,830 [doc2vec] : PROGRESS: at example #10000, processed 310184 words (2888537/s), 35401 word types, 13391 tags
+2017-05-18 11:26:05,960 [doc2vec] : PROGRESS: at example #20000, processed 639606 words (2536496/s), 58971 word types, 23545 tags
+2017-05-18 11:26:06,045 [doc2vec] : PROGRESS: at example #30000, processed 947680 words (3643529/s), 76528 word types, 33695 tags
+2017-05-18 11:26:06,132 [doc2vec] : PROGRESS: at example #40000, processed 1246162 words (3436911/s), 91566 word types, 43716 tags
+2017-05-18 11:26:06,220 [doc2vec] : PROGRESS: at example #50000, processed 1571292 words (3704149/s), 107413 word types, 53795 tags
+2017-05-18 11:26:06,307 [doc2vec] : PROGRESS: at example #60000, processed 1894849 words (3704353/s), 120690 word types, 63881 tags
+2017-05-18 11:26:06,395 [doc2vec] : PROGRESS: at example #70000, processed 2211058 words (3615052/s), 133685 word types, 74187 tags
+2017-05-18 11:26:06,501 [doc2vec] : PROGRESS: at example #80000, processed 2521074 words (2926723/s), 145659 word types, 84655 tags
+2017-05-18 11:26:06,590 [doc2vec] : PROGRESS: at example #90000, processed 2845596 words (3645243/s), 157199 word types, 94665 tags
+2017-05-18 11:26:06,833 Normalizing and tokenizing
+2017-05-18 11:26:06,833 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:26:09,739 [doc2vec] : PROGRESS: at example #100000, processed 3179796 words (106147/s), 168802 word types, 104684 tags
+2017-05-18 11:26:09,842 [doc2vec] : PROGRESS: at example #110000, processed 3500658 words (3102328/s), 179875 word types, 114704 tags
+2017-05-18 11:26:09,974 [doc2vec] : PROGRESS: at example #120000, processed 3831918 words (2513507/s), 190160 word types, 125268 tags
+2017-05-18 11:26:10,061 [doc2vec] : PROGRESS: at example #130000, processed 4143798 words (3584799/s), 200011 word types, 135310 tags
+2017-05-18 11:26:10,154 [doc2vec] : PROGRESS: at example #140000, processed 4468797 words (3501332/s), 209595 word types, 146436 tags
+2017-05-18 11:26:10,242 [doc2vec] : PROGRESS: at example #150000, processed 4781677 words (3575940/s), 219260 word types, 156452 tags
+2017-05-18 11:26:10,329 [doc2vec] : PROGRESS: at example #160000, processed 5090557 words (3562468/s), 227854 word types, 166463 tags
+2017-05-18 11:26:10,416 [doc2vec] : PROGRESS: at example #170000, processed 5389584 words (3445955/s), 236086 word types, 176685 tags
+2017-05-18 11:26:10,525 [doc2vec] : PROGRESS: at example #180000, processed 5724359 words (3063858/s), 245190 word types, 186701 tags
+2017-05-18 11:26:10,610 [doc2vec] : PROGRESS: at example #190000, processed 6022148 words (3503194/s), 253458 word types, 196729 tags
+2017-05-18 11:26:10,938 Normalizing and tokenizing
+2017-05-18 11:26:10,938 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:26:13,811 [doc2vec] : PROGRESS: at example #200000, processed 6342809 words (100195/s), 262342 word types, 206745 tags
+2017-05-18 11:26:13,943 [doc2vec] : PROGRESS: at example #210000, processed 6658469 words (2382707/s), 270876 word types, 216757 tags
+2017-05-18 11:26:14,036 [doc2vec] : PROGRESS: at example #220000, processed 6984260 words (3524444/s), 278825 word types, 226761 tags
+2017-05-18 11:26:14,130 [doc2vec] : PROGRESS: at example #230000, processed 7306764 words (3427971/s), 287011 word types, 236787 tags
+2017-05-18 11:26:14,216 [doc2vec] : PROGRESS: at example #240000, processed 7602792 words (3464967/s), 294160 word types, 246807 tags
+2017-05-18 11:26:14,307 [doc2vec] : PROGRESS: at example #250000, processed 7924541 words (3532135/s), 301721 word types, 256822 tags
+2017-05-18 11:26:14,396 [doc2vec] : PROGRESS: at example #260000, processed 8225861 words (3377707/s), 309333 word types, 266845 tags
+2017-05-18 11:26:14,506 [doc2vec] : PROGRESS: at example #270000, processed 8551798 words (2982879/s), 316281 word types, 276855 tags
+2017-05-18 11:26:14,594 [doc2vec] : PROGRESS: at example #280000, processed 8867737 words (3561944/s), 322915 word types, 286869 tags
+2017-05-18 11:26:14,683 [doc2vec] : PROGRESS: at example #290000, processed 9176765 words (3498173/s), 330465 word types, 296883 tags
+2017-05-18 11:26:15,019 Normalizing and tokenizing
+2017-05-18 11:26:15,019 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:26:17,900 [doc2vec] : PROGRESS: at example #300000, processed 9520350 words (106800/s), 337866 word types, 307326 tags
+2017-05-18 11:26:17,998 [doc2vec] : PROGRESS: at example #310000, processed 9853313 words (3415052/s), 344454 word types, 317343 tags
+2017-05-18 11:26:18,105 [doc2vec] : PROGRESS: at example #320000, processed 10166904 words (2938722/s), 351776 word types, 327362 tags
+2017-05-18 11:26:18,193 [doc2vec] : PROGRESS: at example #330000, processed 10475164 words (3497429/s), 358628 word types, 337384 tags
+2017-05-18 11:26:18,280 [doc2vec] : PROGRESS: at example #340000, processed 10780570 words (3497873/s), 365236 word types, 347406 tags
+2017-05-18 11:26:18,386 [doc2vec] : PROGRESS: at example #350000, processed 11077679 words (2809448/s), 371994 word types, 357433 tags
+2017-05-18 11:26:18,474 [doc2vec] : PROGRESS: at example #360000, processed 11380085 words (3459169/s), 378812 word types, 367456 tags
+2017-05-18 11:26:18,561 [doc2vec] : PROGRESS: at example #370000, processed 11684198 words (3496851/s), 385511 word types, 377473 tags
+2017-05-18 11:26:18,650 [doc2vec] : PROGRESS: at example #380000, processed 11996633 words (3525088/s), 392145 word types, 387496 tags
+2017-05-18 11:26:18,736 [doc2vec] : PROGRESS: at example #390000, processed 12296109 words (3486880/s), 399294 word types, 397528 tags
+2017-05-18 11:26:19,071 Normalizing and tokenizing
+2017-05-18 11:26:19,071 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:26:22,952 [doc2vec] : PROGRESS: at example #400000, processed 12603090 words (72807/s), 405821 word types, 407551 tags
+2017-05-18 11:26:23,064 [doc2vec] : PROGRESS: at example #410000, processed 12906291 words (2719363/s), 411974 word types, 417571 tags
+2017-05-18 11:26:23,154 [doc2vec] : PROGRESS: at example #420000, processed 13221333 words (3483115/s), 419133 word types, 428462 tags
+2017-05-18 11:26:23,242 [doc2vec] : PROGRESS: at example #430000, processed 13526136 words (3483658/s), 425434 word types, 438481 tags
+2017-05-18 11:26:23,335 [doc2vec] : PROGRESS: at example #440000, processed 13848094 words (3476367/s), 431960 word types, 448495 tags
+2017-05-18 11:26:23,425 [doc2vec] : PROGRESS: at example #450000, processed 14160832 words (3489627/s), 437867 word types, 458517 tags
+2017-05-18 11:26:23,515 [doc2vec] : PROGRESS: at example #460000, processed 14475265 words (3490500/s), 443772 word types, 468534 tags
+2017-05-18 11:26:23,603 [doc2vec] : PROGRESS: at example #470000, processed 14785266 words (3503578/s), 449776 word types, 478550 tags
+2017-05-18 11:26:23,697 [doc2vec] : PROGRESS: at example #480000, processed 15110317 words (3493753/s), 456299 word types, 488581 tags
+2017-05-18 11:26:23,791 [doc2vec] : PROGRESS: at example #490000, processed 15443937 words (3526673/s), 462502 word types, 498941 tags
+2017-05-18 11:26:24,169 Normalizing and tokenizing
+2017-05-18 11:26:24,169 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:26:27,086 [doc2vec] : PROGRESS: at example #500000, processed 15748417 words (92420/s), 469429 word types, 508958 tags
+2017-05-18 11:26:27,176 [doc2vec] : PROGRESS: at example #510000, processed 16058448 words (3445125/s), 475448 word types, 518979 tags
+2017-05-18 11:26:27,265 [doc2vec] : PROGRESS: at example #520000, processed 16366841 words (3479209/s), 481442 word types, 528996 tags
+2017-05-18 11:26:27,355 [doc2vec] : PROGRESS: at example #530000, processed 16677475 words (3457463/s), 487766 word types, 539024 tags
+2017-05-18 11:26:27,447 [doc2vec] : PROGRESS: at example #540000, processed 17001137 words (3509410/s), 493844 word types, 549048 tags
+2017-05-18 11:26:27,539 [doc2vec] : PROGRESS: at example #550000, processed 17317745 words (3467785/s), 500103 word types, 559322 tags
+2017-05-18 11:26:27,633 [doc2vec] : PROGRESS: at example #560000, processed 17628871 words (3319595/s), 506589 word types, 569347 tags
+2017-05-18 11:26:27,721 [doc2vec] : PROGRESS: at example #570000, processed 17932871 words (3450143/s), 512169 word types, 579382 tags
+2017-05-18 11:26:27,816 [doc2vec] : PROGRESS: at example #580000, processed 18264727 words (3481554/s), 518476 word types, 589426 tags
+2017-05-18 11:26:27,908 [doc2vec] : PROGRESS: at example #590000, processed 18546573 words (3065049/s), 524108 word types, 599457 tags
+2017-05-18 11:26:28,350 Normalizing and tokenizing
+2017-05-18 11:26:28,350 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:26:31,199 [doc2vec] : PROGRESS: at example #600000, processed 18875990 words (100115/s), 530073 word types, 609488 tags
+2017-05-18 11:26:31,290 [doc2vec] : PROGRESS: at example #610000, processed 19187859 words (3423167/s), 535937 word types, 619539 tags
+2017-05-18 11:26:31,377 [doc2vec] : PROGRESS: at example #620000, processed 19482778 words (3407303/s), 541529 word types, 629567 tags
+2017-05-18 11:26:31,469 [doc2vec] : PROGRESS: at example #630000, processed 19804794 words (3500235/s), 546877 word types, 639586 tags
+2017-05-18 11:26:31,563 [doc2vec] : PROGRESS: at example #640000, processed 20133682 words (3522011/s), 552275 word types, 649603 tags
+2017-05-18 11:26:31,655 [doc2vec] : PROGRESS: at example #650000, processed 20455163 words (3465906/s), 557738 word types, 659625 tags
+2017-05-18 11:26:31,745 [doc2vec] : PROGRESS: at example #660000, processed 20758376 words (3383777/s), 564392 word types, 669653 tags
+2017-05-18 11:26:31,836 [doc2vec] : PROGRESS: at example #670000, processed 21067193 words (3406393/s), 569948 word types, 679669 tags
+2017-05-18 11:26:31,932 [doc2vec] : PROGRESS: at example #680000, processed 21346614 words (2922768/s), 574954 word types, 689690 tags
+2017-05-18 11:26:32,065 [doc2vec] : PROGRESS: at example #690000, processed 21668582 words (2413353/s), 580461 word types, 699714 tags
+2017-05-18 11:26:32,417 Normalizing and tokenizing
+2017-05-18 11:26:32,417 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:26:35,338 [doc2vec] : PROGRESS: at example #700000, processed 21988833 words (97850/s), 586420 word types, 709742 tags
+2017-05-18 11:26:35,432 [doc2vec] : PROGRESS: at example #710000, processed 22310207 words (3435727/s), 592296 word types, 719771 tags
+2017-05-18 11:26:35,523 [doc2vec] : PROGRESS: at example #720000, processed 22621099 words (3437153/s), 597841 word types, 729783 tags
+2017-05-18 11:26:35,611 [doc2vec] : PROGRESS: at example #730000, processed 22924627 words (3433899/s), 603185 word types, 739816 tags
+2017-05-18 11:26:35,706 [doc2vec] : PROGRESS: at example #740000, processed 23255790 words (3499174/s), 608416 word types, 749838 tags
+2017-05-18 11:26:35,811 [doc2vec] : PROGRESS: at example #750000, processed 23586481 words (3159778/s), 613832 word types, 759868 tags
+2017-05-18 11:26:35,941 [doc2vec] : PROGRESS: at example #760000, processed 23883699 words (2283091/s), 618825 word types, 769893 tags
+2017-05-18 11:26:36,033 [doc2vec] : PROGRESS: at example #770000, processed 24197588 words (3402394/s), 624312 word types, 779913 tags
+2017-05-18 11:26:36,133 [doc2vec] : PROGRESS: at example #780000, processed 24529174 words (3331760/s), 629673 word types, 789936 tags
+2017-05-18 11:26:36,221 [doc2vec] : PROGRESS: at example #790000, processed 24831083 words (3453937/s), 634633 word types, 799970 tags
+2017-05-18 11:26:36,577 Normalizing and tokenizing
+2017-05-18 11:26:36,577 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:26:39,519 [doc2vec] : PROGRESS: at example #800000, processed 25142498 words (94418/s), 639521 word types, 809996 tags
+2017-05-18 11:26:39,613 [doc2vec] : PROGRESS: at example #810000, processed 25459845 words (3393488/s), 644638 word types, 820230 tags
+2017-05-18 11:26:39,711 [doc2vec] : PROGRESS: at example #820000, processed 25758636 words (3054666/s), 650115 word types, 830271 tags
+2017-05-18 11:26:39,842 [doc2vec] : PROGRESS: at example #830000, processed 26093622 words (2544590/s), 655454 word types, 840302 tags
+2017-05-18 11:26:39,944 [doc2vec] : PROGRESS: at example #840000, processed 26414004 words (3151609/s), 660620 word types, 850324 tags
+2017-05-18 11:26:40,037 [doc2vec] : PROGRESS: at example #850000, processed 26712883 words (3230403/s), 665424 word types, 860335 tags
+2017-05-18 11:26:40,130 [doc2vec] : PROGRESS: at example #860000, processed 27036660 words (3470530/s), 670145 word types, 870352 tags
+2017-05-18 11:26:40,221 [doc2vec] : PROGRESS: at example #870000, processed 27347237 words (3425210/s), 674878 word types, 880749 tags
+2017-05-18 11:26:40,314 [doc2vec] : PROGRESS: at example #880000, processed 27653912 words (3318861/s), 679769 word types, 890779 tags
+2017-05-18 11:26:40,423 [doc2vec] : PROGRESS: at example #890000, processed 27966359 words (2872517/s), 685279 word types, 900933 tags
+2017-05-18 11:26:40,767 Normalizing and tokenizing
+2017-05-18 11:26:40,767 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:26:43,751 [doc2vec] : PROGRESS: at example #900000, processed 28274264 words (92524/s), 689934 word types, 911209 tags
+2017-05-18 11:26:43,851 [doc2vec] : PROGRESS: at example #910000, processed 28583071 words (3097460/s), 694076 word types, 921220 tags
+2017-05-18 11:26:44,017 [doc2vec] : PROGRESS: at example #920000, processed 28894558 words (1872746/s), 699540 word types, 931571 tags
+2017-05-18 11:26:44,117 [doc2vec] : PROGRESS: at example #930000, processed 29205424 words (3123342/s), 704743 word types, 941595 tags
+2017-05-18 11:26:44,213 [doc2vec] : PROGRESS: at example #940000, processed 29535326 words (3435677/s), 709974 word types, 951617 tags
+2017-05-18 11:26:44,329 [doc2vec] : PROGRESS: at example #950000, processed 29858804 words (2793665/s), 714978 word types, 961640 tags
+2017-05-18 11:26:44,422 [doc2vec] : PROGRESS: at example #960000, processed 30177568 words (3408951/s), 720614 word types, 971666 tags
+2017-05-18 11:26:44,522 [doc2vec] : PROGRESS: at example #970000, processed 30522150 words (3479067/s), 725773 word types, 981715 tags
+2017-05-18 11:26:44,613 [doc2vec] : PROGRESS: at example #980000, processed 30833027 words (3410404/s), 730681 word types, 991745 tags
+2017-05-18 11:26:44,709 [doc2vec] : PROGRESS: at example #990000, processed 31167276 words (3469206/s), 736400 word types, 1001760 tags
+2017-05-18 11:26:44,862 End of generator
+2017-05-18 11:26:44,862 [doc2vec] : End of generator
+2017-05-18 11:26:44,978 [doc2vec] : collected 740864 word types and 1011774 unique tags from a corpus of 1000000 examples and 31489845 words
+2017-05-18 11:26:44,979 [doc2vec] : Loading a fresh vocabulary
+2017-05-18 11:26:45,598 [doc2vec] : min_count=5 retains 129070 unique words (17% of original 740864, drops 611794)
+2017-05-18 11:26:45,598 [doc2vec] : min_count=5 leaves 30640736 word corpus (97% of original 31489845, drops 849109)
+2017-05-18 11:26:45,890 [doc2vec] : deleting the raw counts dictionary of 740864 items
+2017-05-18 11:26:45,956 [doc2vec] : sample=0.001 downsamples 52 most-common words
+2017-05-18 11:26:45,956 [doc2vec] : downsampling leaves estimated 24262333 word corpus (79.2% of prior 30640736)
+2017-05-18 11:26:45,957 [doc2vec] : estimated required memory for 129070 words and 300 dimensions: 1588431800 bytes
+2017-05-18 11:26:46,382 [doc2vec] : resetting layer weights
+2017-05-18 11:26:59,850 doc2vec training...
+2017-05-18 11:26:59,850 [doc2vec] : doc2vec training...
+2017-05-18 11:26:59,850 Epoch 1 of 10 (alpha = 0.025000)
+2017-05-18 11:26:59,850 [doc2vec] : Epoch 1 of 10 (alpha = 0.025000)
+2017-05-18 11:26:59,850 [doc2vec] : training model with 1 workers on 129070 vocabulary and 300 features, using sg=0 hs=0 sample=0.001 negative=5 window=5
+2017-05-18 11:26:59,850 [doc2vec] : expecting 1000000 sentences, matching count from corpus used for vocabulary survey
+2017-05-18 11:26:59,850 Fetching unlabeled posts from database
+2017-05-18 11:26:59,850 [doc2vec] : Fetching unlabeled posts from database
+2017-05-18 11:27:00,348 Normalizing and tokenizing
+2017-05-18 11:27:00,348 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:27:03,478 [doc2vec] : PROGRESS: at 0.04% examples, 2279 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:27:13,517 [doc2vec] : PROGRESS: at 3.84% examples, 69745 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:27:23,556 [doc2vec] : PROGRESS: at 7.29% examples, 77936 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:27:30,798 Normalizing and tokenizing
+2017-05-18 11:27:30,798 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:27:34,110 [doc2vec] : PROGRESS: at 10.00% examples, 74404 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:27:44,192 [doc2vec] : PROGRESS: at 13.62% examples, 78358 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:27:54,250 [doc2vec] : PROGRESS: at 17.29% examples, 80823 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:28:01,799 Normalizing and tokenizing
+2017-05-18 11:28:01,799 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:28:05,011 [doc2vec] : PROGRESS: at 20.03% examples, 78171 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:28:15,012 [doc2vec] : PROGRESS: at 23.82% examples, 80556 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:28:25,055 [doc2vec] : PROGRESS: at 27.25% examples, 81195 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:28:32,774 Normalizing and tokenizing
+2017-05-18 11:28:32,774 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:28:35,773 [doc2vec] : PROGRESS: at 30.00% examples, 79618 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:28:45,776 [doc2vec] : PROGRESS: at 33.62% examples, 80777 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:28:55,794 [doc2vec] : PROGRESS: at 37.42% examples, 81738 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:29:02,711 Normalizing and tokenizing
+2017-05-18 11:29:02,711 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:29:05,801 [doc2vec] : PROGRESS: at 40.06% examples, 80394 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:29:15,804 [doc2vec] : PROGRESS: at 43.79% examples, 81313 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:29:25,830 [doc2vec] : PROGRESS: at 47.29% examples, 81767 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:29:33,366 Normalizing and tokenizing
+2017-05-18 11:29:33,366 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:29:36,583 [doc2vec] : PROGRESS: at 50.01% examples, 80639 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:29:46,583 [doc2vec] : PROGRESS: at 53.57% examples, 81175 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:29:56,608 [doc2vec] : PROGRESS: at 57.25% examples, 81775 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:30:04,132 Normalizing and tokenizing
+2017-05-18 11:30:04,132 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:30:07,239 [doc2vec] : PROGRESS: at 60.03% examples, 80857 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:30:17,284 [doc2vec] : PROGRESS: at 63.69% examples, 81415 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:30:27,316 [doc2vec] : PROGRESS: at 67.01% examples, 81484 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:30:35,268 Normalizing and tokenizing
+2017-05-18 11:30:35,268 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:30:38,327 [doc2vec] : PROGRESS: at 70.02% examples, 80785 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:30:48,369 [doc2vec] : PROGRESS: at 73.66% examples, 81256 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:30:58,451 [doc2vec] : PROGRESS: at 77.21% examples, 81607 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:31:06,202 Normalizing and tokenizing
+2017-05-18 11:31:06,202 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:31:09,465 [doc2vec] : PROGRESS: at 80.01% examples, 80826 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:31:19,501 [doc2vec] : PROGRESS: at 83.65% examples, 81278 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:31:29,531 [doc2vec] : PROGRESS: at 87.11% examples, 81465 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:31:37,402 Normalizing and tokenizing
+2017-05-18 11:31:37,402 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:31:40,531 [doc2vec] : PROGRESS: at 90.01% examples, 80841 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:31:50,608 [doc2vec] : PROGRESS: at 93.66% examples, 81226 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:32:00,649 [doc2vec] : PROGRESS: at 97.18% examples, 81569 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:32:08,444 End of generator
+2017-05-18 11:32:08,444 [doc2vec] : End of generator
+2017-05-18 11:32:08,768 [doc2vec] : worker thread finished; awaiting finish of 0 more threads
+2017-05-18 11:32:08,768 [doc2vec] : training on 31489845 raw words (25263250 effective words) took 308.9s, 81780 effective words/s
+2017-05-18 11:32:08,769 Epoch 2 of 10 (alpha = 0.022600)
+2017-05-18 11:32:08,769 [doc2vec] : Epoch 2 of 10 (alpha = 0.022600)
+2017-05-18 11:32:08,769 [doc2vec] : training model with 1 workers on 129070 vocabulary and 300 features, using sg=0 hs=0 sample=0.001 negative=5 window=5
+2017-05-18 11:32:08,769 [doc2vec] : expecting 1000000 sentences, matching count from corpus used for vocabulary survey
+2017-05-18 11:32:08,770 Fetching unlabeled posts from database
+2017-05-18 11:32:08,770 [doc2vec] : Fetching unlabeled posts from database
+2017-05-18 11:32:09,258 Normalizing and tokenizing
+2017-05-18 11:32:09,258 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:32:12,403 [doc2vec] : PROGRESS: at 0.04% examples, 2270 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:32:22,450 [doc2vec] : PROGRESS: at 3.59% examples, 64970 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:32:32,517 [doc2vec] : PROGRESS: at 7.26% examples, 77469 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:32:39,976 Normalizing and tokenizing
+2017-05-18 11:32:39,976 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:32:43,209 [doc2vec] : PROGRESS: at 10.00% examples, 74031 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:32:53,250 [doc2vec] : PROGRESS: at 13.59% examples, 77948 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:33:03,305 [doc2vec] : PROGRESS: at 17.25% examples, 80495 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:33:10,981 Normalizing and tokenizing
+2017-05-18 11:33:10,981 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:33:14,015 [doc2vec] : PROGRESS: at 20.03% examples, 78082 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:33:24,078 [doc2vec] : PROGRESS: at 23.33% examples, 78912 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:33:34,158 [doc2vec] : PROGRESS: at 26.94% examples, 80179 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:33:42,738 Normalizing and tokenizing
+2017-05-18 11:33:42,738 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:33:45,841 [doc2vec] : PROGRESS: at 30.00% examples, 78690 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:33:55,858 [doc2vec] : PROGRESS: at 33.62% examples, 79918 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:34:05,869 [doc2vec] : PROGRESS: at 37.37% examples, 80816 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:34:13,025 Normalizing and tokenizing
+2017-05-18 11:34:13,025 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:34:16,093 [doc2vec] : PROGRESS: at 40.03% examples, 79484 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:34:26,133 [doc2vec] : PROGRESS: at 43.60% examples, 80148 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:34:36,157 [doc2vec] : PROGRESS: at 47.23% examples, 80904 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:34:43,959 Normalizing and tokenizing
+2017-05-18 11:34:43,959 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:34:47,121 [doc2vec] : PROGRESS: at 50.01% examples, 79842 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:34:57,145 [doc2vec] : PROGRESS: at 53.76% examples, 80685 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:35:07,190 [doc2vec] : PROGRESS: at 57.52% examples, 81428 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:35:13,896 Normalizing and tokenizing
+2017-05-18 11:35:13,896 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:35:17,235 [doc2vec] : PROGRESS: at 60.07% examples, 80449 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:35:27,289 [doc2vec] : PROGRESS: at 63.46% examples, 80655 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:35:37,349 [doc2vec] : PROGRESS: at 67.11% examples, 81176 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:35:45,118 Normalizing and tokenizing
+2017-05-18 11:35:45,118 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:35:48,193 [doc2vec] : PROGRESS: at 70.02% examples, 80446 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:35:58,266 [doc2vec] : PROGRESS: at 73.70% examples, 80956 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:36:08,320 [doc2vec] : PROGRESS: at 77.33% examples, 81427 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:36:15,554 Normalizing and tokenizing
+2017-05-18 11:36:15,554 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:36:18,740 [doc2vec] : PROGRESS: at 80.01% examples, 80719 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:36:28,773 [doc2vec] : PROGRESS: at 83.32% examples, 80837 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:36:38,852 [doc2vec] : PROGRESS: at 86.98% examples, 81232 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:36:47,384 Normalizing and tokenizing
+2017-05-18 11:36:47,384 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:36:50,809 [doc2vec] : PROGRESS: at 90.01% examples, 80457 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:37:00,844 [doc2vec] : PROGRESS: at 93.61% examples, 80812 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:37:10,888 [doc2vec] : PROGRESS: at 97.13% examples, 81166 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:37:18,984 End of generator
+2017-05-18 11:37:18,984 [doc2vec] : End of generator
+2017-05-18 11:37:19,330 [doc2vec] : worker thread finished; awaiting finish of 0 more threads
+2017-05-18 11:37:19,330 [doc2vec] : training on 31489845 raw words (25263903 effective words) took 310.6s, 81349 effective words/s
+2017-05-18 11:37:19,331 Epoch 3 of 10 (alpha = 0.020200)
+2017-05-18 11:37:19,331 [doc2vec] : Epoch 3 of 10 (alpha = 0.020200)
+2017-05-18 11:37:19,331 [doc2vec] : training model with 1 workers on 129070 vocabulary and 300 features, using sg=0 hs=0 sample=0.001 negative=5 window=5
+2017-05-18 11:37:19,331 [doc2vec] : expecting 1000000 sentences, matching count from corpus used for vocabulary survey
+2017-05-18 11:37:19,332 Fetching unlabeled posts from database
+2017-05-18 11:37:19,332 [doc2vec] : Fetching unlabeled posts from database
+2017-05-18 11:37:19,929 Normalizing and tokenizing
+2017-05-18 11:37:19,929 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:37:24,065 [doc2vec] : PROGRESS: at 0.04% examples, 1735 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:37:34,086 [doc2vec] : PROGRESS: at 3.87% examples, 65147 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:37:44,161 [doc2vec] : PROGRESS: at 7.60% examples, 77624 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:37:50,707 Normalizing and tokenizing
+2017-05-18 11:37:50,707 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:37:54,186 [doc2vec] : PROGRESS: at 10.07% examples, 73603 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:38:04,217 [doc2vec] : PROGRESS: at 13.75% examples, 78311 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:38:14,241 [doc2vec] : PROGRESS: at 17.42% examples, 80803 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:38:21,485 Normalizing and tokenizing
+2017-05-18 11:38:21,485 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:38:25,159 [doc2vec] : PROGRESS: at 20.03% examples, 77378 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:38:35,227 [doc2vec] : PROGRESS: at 23.85% examples, 79873 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:38:45,291 [doc2vec] : PROGRESS: at 27.69% examples, 81788 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:38:51,536 Normalizing and tokenizing
+2017-05-18 11:38:51,536 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:38:55,292 [doc2vec] : PROGRESS: at 30.16% examples, 80000 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:39:05,328 [doc2vec] : PROGRESS: at 33.76% examples, 81025 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:39:15,393 [doc2vec] : PROGRESS: at 37.52% examples, 81863 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:39:22,493 Normalizing and tokenizing
+2017-05-18 11:39:22,493 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:39:25,532 [doc2vec] : PROGRESS: at 40.03% examples, 80175 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:39:35,535 [doc2vec] : PROGRESS: at 43.67% examples, 80935 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:39:45,563 [doc2vec] : PROGRESS: at 47.29% examples, 81635 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:39:53,232 Normalizing and tokenizing
+2017-05-18 11:39:53,232 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:39:56,318 [doc2vec] : PROGRESS: at 50.01% examples, 80513 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:40:06,366 [doc2vec] : PROGRESS: at 53.64% examples, 81126 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:40:16,428 [doc2vec] : PROGRESS: at 57.25% examples, 81620 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:40:24,813 Normalizing and tokenizing
+2017-05-18 11:40:24,813 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:40:27,925 [doc2vec] : PROGRESS: at 60.03% examples, 80344 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:40:37,947 [doc2vec] : PROGRESS: at 63.67% examples, 80888 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:40:47,949 [doc2vec] : PROGRESS: at 67.51% examples, 81611 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:40:54,406 Normalizing and tokenizing
+2017-05-18 11:40:54,406 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:40:57,963 [doc2vec] : PROGRESS: at 70.22% examples, 80977 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:41:07,964 [doc2vec] : PROGRESS: at 73.82% examples, 81389 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:41:17,981 [doc2vec] : PROGRESS: at 77.39% examples, 81789 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:41:25,944 Normalizing and tokenizing
+2017-05-18 11:41:25,944 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:41:28,959 [doc2vec] : PROGRESS: at 80.01% examples, 80818 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:41:38,994 [doc2vec] : PROGRESS: at 83.50% examples, 81114 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:41:49,067 [doc2vec] : PROGRESS: at 87.16% examples, 81502 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:41:56,684 Normalizing and tokenizing
+2017-05-18 11:41:56,684 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:41:59,954 [doc2vec] : PROGRESS: at 90.01% examples, 80851 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:42:09,979 [doc2vec] : PROGRESS: at 93.64% examples, 81223 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:42:19,996 [doc2vec] : PROGRESS: at 97.18% examples, 81598 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:42:28,657 End of generator
+2017-05-18 11:42:28,657 [doc2vec] : End of generator
+2017-05-18 11:42:29,016 [doc2vec] : worker thread finished; awaiting finish of 0 more threads
+2017-05-18 11:42:29,016 [doc2vec] : training on 31489845 raw words (25260738 effective words) took 309.7s, 81569 effective words/s
+2017-05-18 11:42:29,016 Epoch 4 of 10 (alpha = 0.017800)
+2017-05-18 11:42:29,016 [doc2vec] : Epoch 4 of 10 (alpha = 0.017800)
+2017-05-18 11:42:29,016 [doc2vec] : training model with 1 workers on 129070 vocabulary and 300 features, using sg=0 hs=0 sample=0.001 negative=5 window=5
+2017-05-18 11:42:29,017 [doc2vec] : expecting 1000000 sentences, matching count from corpus used for vocabulary survey
+2017-05-18 11:42:29,017 Fetching unlabeled posts from database
+2017-05-18 11:42:29,017 [doc2vec] : Fetching unlabeled posts from database
+2017-05-18 11:42:29,577 Normalizing and tokenizing
+2017-05-18 11:42:29,577 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:42:32,677 [doc2vec] : PROGRESS: at 0.04% examples, 2256 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:42:42,685 [doc2vec] : PROGRESS: at 3.87% examples, 70290 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:42:52,690 [doc2vec] : PROGRESS: at 7.54% examples, 80729 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:42:59,269 Normalizing and tokenizing
+2017-05-18 11:42:59,269 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:43:02,768 [doc2vec] : PROGRESS: at 10.07% examples, 76004 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:43:12,814 [doc2vec] : PROGRESS: at 13.80% examples, 80618 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:43:22,891 [doc2vec] : PROGRESS: at 17.29% examples, 81609 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:43:30,464 Normalizing and tokenizing
+2017-05-18 11:43:30,464 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:43:33,570 [doc2vec] : PROGRESS: at 20.03% examples, 78896 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:43:43,615 [doc2vec] : PROGRESS: at 23.72% examples, 80826 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:43:53,667 [doc2vec] : PROGRESS: at 27.28% examples, 81802 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:44:01,222 Normalizing and tokenizing
+2017-05-18 11:44:01,222 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:44:04,395 [doc2vec] : PROGRESS: at 30.00% examples, 80060 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:44:14,412 [doc2vec] : PROGRESS: at 33.60% examples, 81100 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:44:24,435 [doc2vec] : PROGRESS: at 37.06% examples, 81347 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:44:32,416 Normalizing and tokenizing
+2017-05-18 11:44:32,416 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:44:35,449 [doc2vec] : PROGRESS: at 40.03% examples, 80023 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:44:45,506 [doc2vec] : PROGRESS: at 43.85% examples, 81106 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:44:55,507 [doc2vec] : PROGRESS: at 47.65% examples, 82133 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:45:01,788 Normalizing and tokenizing
+2017-05-18 11:45:01,788 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:45:05,559 [doc2vec] : PROGRESS: at 50.26% examples, 81139 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:45:15,616 [doc2vec] : PROGRESS: at 53.96% examples, 81810 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:45:25,621 [doc2vec] : PROGRESS: at 57.52% examples, 82246 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:45:32,534 Normalizing and tokenizing
+2017-05-18 11:45:32,534 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:45:35,625 [doc2vec] : PROGRESS: at 60.03% examples, 81190 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:45:45,653 [doc2vec] : PROGRESS: at 63.67% examples, 81697 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:45:55,696 [doc2vec] : PROGRESS: at 67.31% examples, 82139 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:46:02,936 Normalizing and tokenizing
+2017-05-18 11:46:02,936 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:46:06,053 [doc2vec] : PROGRESS: at 70.02% examples, 81312 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:46:16,141 [doc2vec] : PROGRESS: at 73.73% examples, 81820 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:46:26,159 [doc2vec] : PROGRESS: at 77.09% examples, 81971 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:46:33,923 Normalizing and tokenizing
+2017-05-18 11:46:33,923 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:46:37,109 [doc2vec] : PROGRESS: at 80.01% examples, 81318 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:46:47,116 [doc2vec] : PROGRESS: at 83.53% examples, 81635 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:46:57,201 [doc2vec] : PROGRESS: at 87.19% examples, 82003 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:47:04,759 Normalizing and tokenizing
+2017-05-18 11:47:04,759 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:47:07,964 [doc2vec] : PROGRESS: at 90.01% examples, 81337 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:47:18,023 [doc2vec] : PROGRESS: at 93.66% examples, 81713 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:47:28,075 [doc2vec] : PROGRESS: at 96.88% examples, 81772 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:47:36,837 End of generator
+2017-05-18 11:47:36,837 [doc2vec] : End of generator
+2017-05-18 11:47:37,237 [doc2vec] : worker thread finished; awaiting finish of 0 more threads
+2017-05-18 11:47:37,237 [doc2vec] : training on 31489845 raw words (25261520 effective words) took 308.2s, 81959 effective words/s
+2017-05-18 11:47:37,239 Epoch 5 of 10 (alpha = 0.015400)
+2017-05-18 11:47:37,239 [doc2vec] : Epoch 5 of 10 (alpha = 0.015400)
+2017-05-18 11:47:37,239 [doc2vec] : training model with 1 workers on 129070 vocabulary and 300 features, using sg=0 hs=0 sample=0.001 negative=5 window=5
+2017-05-18 11:47:37,240 [doc2vec] : expecting 1000000 sentences, matching count from corpus used for vocabulary survey
+2017-05-18 11:47:37,240 Fetching unlabeled posts from database
+2017-05-18 11:47:37,240 [doc2vec] : Fetching unlabeled posts from database
+2017-05-18 11:47:37,919 Normalizing and tokenizing
+2017-05-18 11:47:37,919 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:47:41,143 [doc2vec] : PROGRESS: at 0.04% examples, 2109 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:47:51,206 [doc2vec] : PROGRESS: at 3.68% examples, 65366 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:48:01,261 [doc2vec] : PROGRESS: at 7.13% examples, 75249 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:48:09,382 Normalizing and tokenizing
+2017-05-18 11:48:09,382 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:48:12,497 [doc2vec] : PROGRESS: at 10.00% examples, 72317 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:48:22,521 [doc2vec] : PROGRESS: at 13.50% examples, 76047 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:48:32,553 [doc2vec] : PROGRESS: at 17.04% examples, 78343 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:48:40,815 Normalizing and tokenizing
+2017-05-18 11:48:40,815 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:48:43,935 [doc2vec] : PROGRESS: at 20.03% examples, 76381 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:48:53,964 [doc2vec] : PROGRESS: at 23.62% examples, 78307 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:49:03,970 [doc2vec] : PROGRESS: at 27.32% examples, 79969 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:49:11,577 Normalizing and tokenizing
+2017-05-18 11:49:11,577 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:49:14,617 [doc2vec] : PROGRESS: at 30.00% examples, 78446 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:49:24,632 [doc2vec] : PROGRESS: at 33.31% examples, 78950 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:49:34,725 [doc2vec] : PROGRESS: at 37.06% examples, 79937 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:49:42,610 Normalizing and tokenizing
+2017-05-18 11:49:42,610 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:49:45,666 [doc2vec] : PROGRESS: at 40.03% examples, 78797 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:49:55,716 [doc2vec] : PROGRESS: at 43.72% examples, 79729 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:50:05,730 [doc2vec] : PROGRESS: at 47.34% examples, 80514 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:50:13,219 Normalizing and tokenizing
+2017-05-18 11:50:13,219 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:50:16,324 [doc2vec] : PROGRESS: at 50.01% examples, 79466 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:50:26,386 [doc2vec] : PROGRESS: at 53.37% examples, 79702 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:50:36,464 [doc2vec] : PROGRESS: at 57.09% examples, 80438 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:50:44,313 Normalizing and tokenizing
+2017-05-18 11:50:44,313 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:50:47,380 [doc2vec] : PROGRESS: at 60.03% examples, 79698 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:50:57,406 [doc2vec] : PROGRESS: at 63.69% examples, 80310 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:51:07,423 [doc2vec] : PROGRESS: at 67.41% examples, 80899 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:51:14,320 Normalizing and tokenizing
+2017-05-18 11:51:14,320 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:51:17,463 [doc2vec] : PROGRESS: at 70.02% examples, 80152 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:51:27,559 [doc2vec] : PROGRESS: at 73.41% examples, 80317 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:51:37,643 [doc2vec] : PROGRESS: at 76.91% examples, 80673 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:51:45,944 Normalizing and tokenizing
+2017-05-18 11:51:45,944 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:51:48,979 [doc2vec] : PROGRESS: at 80.01% examples, 80151 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:51:59,009 [doc2vec] : PROGRESS: at 83.58% examples, 80566 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:52:09,090 [doc2vec] : PROGRESS: at 87.25% examples, 80971 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:52:16,539 Normalizing and tokenizing
+2017-05-18 11:52:16,539 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:52:19,678 [doc2vec] : PROGRESS: at 90.01% examples, 80346 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:52:29,737 [doc2vec] : PROGRESS: at 93.29% examples, 80425 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:52:39,847 [doc2vec] : PROGRESS: at 96.80% examples, 80747 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:52:48,917 End of generator
+2017-05-18 11:52:48,917 [doc2vec] : End of generator
+2017-05-18 11:52:49,325 [doc2vec] : worker thread finished; awaiting finish of 0 more threads
+2017-05-18 11:52:49,326 [doc2vec] : training on 31489845 raw words (25265468 effective words) took 312.1s, 80957 effective words/s
+2017-05-18 11:52:49,326 Epoch 6 of 10 (alpha = 0.013000)
+2017-05-18 11:52:49,326 [doc2vec] : Epoch 6 of 10 (alpha = 0.013000)
+2017-05-18 11:52:49,326 [doc2vec] : training model with 1 workers on 129070 vocabulary and 300 features, using sg=0 hs=0 sample=0.001 negative=5 window=5
+2017-05-18 11:52:49,326 [doc2vec] : expecting 1000000 sentences, matching count from corpus used for vocabulary survey
+2017-05-18 11:52:49,327 Fetching unlabeled posts from database
+2017-05-18 11:52:49,327 [doc2vec] : Fetching unlabeled posts from database
+2017-05-18 11:52:49,872 Normalizing and tokenizing
+2017-05-18 11:52:49,872 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:52:52,861 [doc2vec] : PROGRESS: at 0.04% examples, 2320 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:53:02,891 [doc2vec] : PROGRESS: at 3.62% examples, 66089 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:53:12,930 [doc2vec] : PROGRESS: at 7.16% examples, 76924 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:53:20,930 Normalizing and tokenizing
+2017-05-18 11:53:20,930 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:53:24,992 [doc2vec] : PROGRESS: at 10.00% examples, 71478 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:53:34,996 [doc2vec] : PROGRESS: at 13.56% examples, 75726 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:53:45,105 [doc2vec] : PROGRESS: at 17.35% examples, 79111 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:53:52,273 Normalizing and tokenizing
+2017-05-18 11:53:52,273 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:53:55,455 [doc2vec] : PROGRESS: at 20.03% examples, 77012 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:54:05,526 [doc2vec] : PROGRESS: at 23.75% examples, 79233 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:54:15,600 [doc2vec] : PROGRESS: at 27.36% examples, 80456 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:54:23,525 Normalizing and tokenizing
+2017-05-18 11:54:23,525 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:54:27,015 [doc2vec] : PROGRESS: at 30.00% examples, 78169 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:54:37,033 [doc2vec] : PROGRESS: at 33.62% examples, 79438 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:54:47,099 [doc2vec] : PROGRESS: at 37.42% examples, 80465 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:54:54,059 Normalizing and tokenizing
+2017-05-18 11:54:54,059 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:54:57,329 [doc2vec] : PROGRESS: at 40.03% examples, 79041 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:55:07,397 [doc2vec] : PROGRESS: at 43.75% examples, 80003 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:55:17,433 [doc2vec] : PROGRESS: at 47.43% examples, 80859 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:55:25,197 Normalizing and tokenizing
+2017-05-18 11:55:25,197 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:55:28,462 [doc2vec] : PROGRESS: at 50.01% examples, 79423 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:55:38,519 [doc2vec] : PROGRESS: at 53.70% examples, 80178 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:55:48,580 [doc2vec] : PROGRESS: at 57.34% examples, 80765 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:55:55,961 Normalizing and tokenizing
+2017-05-18 11:55:55,961 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:55:59,067 [doc2vec] : PROGRESS: at 60.03% examples, 79852 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:56:09,089 [doc2vec] : PROGRESS: at 63.69% examples, 80459 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:56:19,126 [doc2vec] : PROGRESS: at 67.35% examples, 80956 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:56:27,148 Normalizing and tokenizing
+2017-05-18 11:56:27,148 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:56:30,298 [doc2vec] : PROGRESS: at 70.02% examples, 79867 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:56:40,306 [doc2vec] : PROGRESS: at 73.73% examples, 80456 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:56:50,328 [doc2vec] : PROGRESS: at 77.33% examples, 80921 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:56:57,580 Normalizing and tokenizing
+2017-05-18 11:56:57,580 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:57:00,683 [doc2vec] : PROGRESS: at 80.01% examples, 80260 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:57:10,729 [doc2vec] : PROGRESS: at 83.75% examples, 80816 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:57:20,765 [doc2vec] : PROGRESS: at 87.46% examples, 81253 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:57:28,364 Normalizing and tokenizing
+2017-05-18 11:57:28,364 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:57:31,469 [doc2vec] : PROGRESS: at 90.01% examples, 80415 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:57:41,539 [doc2vec] : PROGRESS: at 93.66% examples, 80814 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:57:51,613 [doc2vec] : PROGRESS: at 97.18% examples, 81160 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:57:59,494 End of generator
+2017-05-18 11:57:59,494 [doc2vec] : End of generator
+2017-05-18 11:57:59,910 [doc2vec] : worker thread finished; awaiting finish of 0 more threads
+2017-05-18 11:57:59,910 [doc2vec] : training on 31489845 raw words (25260270 effective words) took 310.6s, 81332 effective words/s
+2017-05-18 11:57:59,910 Epoch 7 of 10 (alpha = 0.010600)
+2017-05-18 11:57:59,910 [doc2vec] : Epoch 7 of 10 (alpha = 0.010600)
+2017-05-18 11:57:59,910 [doc2vec] : training model with 1 workers on 129070 vocabulary and 300 features, using sg=0 hs=0 sample=0.001 negative=5 window=5
+2017-05-18 11:57:59,911 [doc2vec] : expecting 1000000 sentences, matching count from corpus used for vocabulary survey
+2017-05-18 11:57:59,911 Fetching unlabeled posts from database
+2017-05-18 11:57:59,911 [doc2vec] : Fetching unlabeled posts from database
+2017-05-18 11:58:00,491 Normalizing and tokenizing
+2017-05-18 11:58:00,491 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:58:03,653 [doc2vec] : PROGRESS: at 0.04% examples, 2205 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:58:13,689 [doc2vec] : PROGRESS: at 3.90% examples, 70327 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:58:23,721 [doc2vec] : PROGRESS: at 7.54% examples, 80270 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:58:30,906 Normalizing and tokenizing
+2017-05-18 11:58:30,906 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:58:33,957 [doc2vec] : PROGRESS: at 10.00% examples, 74868 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:58:43,982 [doc2vec] : PROGRESS: at 13.71% examples, 79378 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:58:54,012 [doc2vec] : PROGRESS: at 17.49% examples, 82290 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:59:00,701 Normalizing and tokenizing
+2017-05-18 11:59:00,701 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:59:04,014 [doc2vec] : PROGRESS: at 20.08% examples, 79688 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:59:14,027 [doc2vec] : PROGRESS: at 23.85% examples, 81786 words/s, in_qsize 2, out_qsize 0
+2017-05-18 11:59:24,029 [doc2vec] : PROGRESS: at 27.52% examples, 82999 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:59:31,308 Normalizing and tokenizing
+2017-05-18 11:59:31,308 [doc2vec] : Normalizing and tokenizing
+2017-05-18 11:59:34,508 [doc2vec] : PROGRESS: at 30.00% examples, 80726 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:59:44,528 [doc2vec] : PROGRESS: at 33.79% examples, 82169 words/s, in_qsize 1, out_qsize 0
+2017-05-18 11:59:54,579 [doc2vec] : PROGRESS: at 37.77% examples, 83414 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:00:00,277 Normalizing and tokenizing
+2017-05-18 12:00:00,277 [doc2vec] : Normalizing and tokenizing
+2017-05-18 12:00:04,587 [doc2vec] : PROGRESS: at 40.51% examples, 82054 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:00:14,642 [doc2vec] : PROGRESS: at 44.23% examples, 82879 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:00:24,688 [doc2vec] : PROGRESS: at 47.72% examples, 83217 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:00:30,858 Normalizing and tokenizing
+2017-05-18 12:00:30,858 [doc2vec] : Normalizing and tokenizing
+2017-05-18 12:00:34,697 [doc2vec] : PROGRESS: at 50.26% examples, 82061 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:00:44,766 [doc2vec] : PROGRESS: at 54.03% examples, 82773 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:00:54,808 [doc2vec] : PROGRESS: at 57.76% examples, 83415 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:01:00,643 Normalizing and tokenizing
+2017-05-18 12:01:00,643 [doc2vec] : Normalizing and tokenizing
+2017-05-18 12:01:04,868 [doc2vec] : PROGRESS: at 60.41% examples, 82434 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:01:14,911 [doc2vec] : PROGRESS: at 64.09% examples, 82955 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:01:24,980 [doc2vec] : PROGRESS: at 67.51% examples, 83021 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:01:31,830 Normalizing and tokenizing
+2017-05-18 12:01:31,830 [doc2vec] : Normalizing and tokenizing
+2017-05-18 12:01:34,985 [doc2vec] : PROGRESS: at 70.02% examples, 82059 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:01:45,052 [doc2vec] : PROGRESS: at 73.73% examples, 82545 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:01:55,062 [doc2vec] : PROGRESS: at 77.36% examples, 82971 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:02:02,143 Normalizing and tokenizing
+2017-05-18 12:02:02,143 [doc2vec] : Normalizing and tokenizing
+2017-05-18 12:02:05,181 [doc2vec] : PROGRESS: at 80.01% examples, 82255 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:02:15,247 [doc2vec] : PROGRESS: at 83.58% examples, 82583 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:02:25,309 [doc2vec] : PROGRESS: at 86.94% examples, 82626 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:02:33,341 Normalizing and tokenizing
+2017-05-18 12:02:33,341 [doc2vec] : Normalizing and tokenizing
+2017-05-18 12:02:36,499 [doc2vec] : PROGRESS: at 90.01% examples, 82034 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:02:46,587 [doc2vec] : PROGRESS: at 93.64% examples, 82352 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:02:56,638 [doc2vec] : PROGRESS: at 97.18% examples, 82684 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:03:04,523 End of generator
+2017-05-18 12:03:04,523 [doc2vec] : End of generator
+2017-05-18 12:03:04,905 [doc2vec] : worker thread finished; awaiting finish of 0 more threads
+2017-05-18 12:03:04,905 [doc2vec] : training on 31489845 raw words (25261764 effective words) took 305.0s, 82827 effective words/s
+2017-05-18 12:03:04,905 Epoch 8 of 10 (alpha = 0.008200)
+2017-05-18 12:03:04,905 [doc2vec] : Epoch 8 of 10 (alpha = 0.008200)
+2017-05-18 12:03:04,905 [doc2vec] : training model with 1 workers on 129070 vocabulary and 300 features, using sg=0 hs=0 sample=0.001 negative=5 window=5
+2017-05-18 12:03:04,906 [doc2vec] : expecting 1000000 sentences, matching count from corpus used for vocabulary survey
+2017-05-18 12:03:04,906 Fetching unlabeled posts from database
+2017-05-18 12:03:04,906 [doc2vec] : Fetching unlabeled posts from database
+2017-05-18 12:03:05,497 Normalizing and tokenizing
+2017-05-18 12:03:05,497 [doc2vec] : Normalizing and tokenizing
+2017-05-18 12:03:08,661 [doc2vec] : PROGRESS: at 0.04% examples, 2196 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:03:18,679 [doc2vec] : PROGRESS: at 3.65% examples, 65682 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:03:28,680 [doc2vec] : PROGRESS: at 6.98% examples, 74355 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:03:36,834 Normalizing and tokenizing
+2017-05-18 12:03:36,834 [doc2vec] : Normalizing and tokenizing
+2017-05-18 12:03:39,964 [doc2vec] : PROGRESS: at 10.00% examples, 72711 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:03:50,025 [doc2vec] : PROGRESS: at 13.56% examples, 76653 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:04:00,087 [doc2vec] : PROGRESS: at 17.22% examples, 79382 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:04:07,674 Normalizing and tokenizing
+2017-05-18 12:04:07,674 [doc2vec] : Normalizing and tokenizing
+2017-05-18 12:04:10,771 [doc2vec] : PROGRESS: at 20.03% examples, 77316 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:04:20,829 [doc2vec] : PROGRESS: at 23.65% examples, 79198 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:04:30,899 [doc2vec] : PROGRESS: at 27.01% examples, 79774 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:04:39,254 Normalizing and tokenizing
+2017-05-18 12:04:39,254 [doc2vec] : Normalizing and tokenizing
+2017-05-18 12:04:42,191 [doc2vec] : PROGRESS: at 30.00% examples, 78484 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:04:52,247 [doc2vec] : PROGRESS: at 33.62% examples, 79697 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:05:02,272 [doc2vec] : PROGRESS: at 37.30% examples, 80460 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:05:09,608 Normalizing and tokenizing
+2017-05-18 12:05:09,608 [doc2vec] : Normalizing and tokenizing
+2017-05-18 12:05:12,704 [doc2vec] : PROGRESS: at 40.03% examples, 79152 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:05:22,727 [doc2vec] : PROGRESS: at 43.69% examples, 80021 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:05:32,749 [doc2vec] : PROGRESS: at 47.17% examples, 80511 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:05:40,516 Normalizing and tokenizing
+2017-05-18 12:05:40,516 [doc2vec] : Normalizing and tokenizing
+2017-05-18 12:05:43,652 [doc2vec] : PROGRESS: at 50.01% examples, 79609 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:05:53,709 [doc2vec] : PROGRESS: at 53.64% examples, 80262 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:06:03,733 [doc2vec] : PROGRESS: at 57.37% examples, 80995 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:06:10,783 Normalizing and tokenizing
+2017-05-18 12:06:10,783 [doc2vec] : Normalizing and tokenizing
+2017-05-18 12:06:13,999 [doc2vec] : PROGRESS: at 60.03% examples, 80118 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:06:24,072 [doc2vec] : PROGRESS: at 63.72% examples, 80734 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:06:34,130 [doc2vec] : PROGRESS: at 67.11% examples, 80905 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:06:41,948 Normalizing and tokenizing
+2017-05-18 12:06:41,948 [doc2vec] : Normalizing and tokenizing
+2017-05-18 12:06:45,043 [doc2vec] : PROGRESS: at 70.02% examples, 80167 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:06:55,044 [doc2vec] : PROGRESS: at 73.66% examples, 80678 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:07:05,082 [doc2vec] : PROGRESS: at 77.26% examples, 81132 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:07:12,505 Normalizing and tokenizing
+2017-05-18 12:07:12,505 [doc2vec] : Normalizing and tokenizing
+2017-05-18 12:07:15,629 [doc2vec] : PROGRESS: at 80.01% examples, 80463 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:07:25,631 [doc2vec] : PROGRESS: at 83.41% examples, 80692 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:07:35,699 [doc2vec] : PROGRESS: at 87.01% examples, 81038 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:07:44,014 Normalizing and tokenizing
+2017-05-18 12:07:44,014 [doc2vec] : Normalizing and tokenizing
+2017-05-18 12:07:47,133 [doc2vec] : PROGRESS: at 90.01% examples, 80394 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:07:57,160 [doc2vec] : PROGRESS: at 93.54% examples, 80698 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:08:07,188 [doc2vec] : PROGRESS: at 97.06% examples, 81060 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:08:15,483 End of generator
+2017-05-18 12:08:15,483 [doc2vec] : End of generator
+2017-05-18 12:08:15,845 [doc2vec] : worker thread finished; awaiting finish of 0 more threads
+2017-05-18 12:08:15,845 [doc2vec] : training on 31489845 raw words (25261646 effective words) took 310.9s, 81243 effective words/s
+2017-05-18 12:08:15,847 Epoch 9 of 10 (alpha = 0.005800)
+2017-05-18 12:08:15,847 [doc2vec] : Epoch 9 of 10 (alpha = 0.005800)
+2017-05-18 12:08:15,847 [doc2vec] : training model with 1 workers on 129070 vocabulary and 300 features, using sg=0 hs=0 sample=0.001 negative=5 window=5
+2017-05-18 12:08:15,847 [doc2vec] : expecting 1000000 sentences, matching count from corpus used for vocabulary survey
+2017-05-18 12:08:15,848 Fetching unlabeled posts from database
+2017-05-18 12:08:15,848 [doc2vec] : Fetching unlabeled posts from database
+2017-05-18 12:08:16,411 Normalizing and tokenizing
+2017-05-18 12:08:16,411 [doc2vec] : Normalizing and tokenizing
+2017-05-18 12:08:19,424 [doc2vec] : PROGRESS: at 0.04% examples, 2297 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:08:29,441 [doc2vec] : PROGRESS: at 3.62% examples, 65984 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:08:39,463 [doc2vec] : PROGRESS: at 7.32% examples, 78562 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:08:46,793 Normalizing and tokenizing
+2017-05-18 12:08:46,793 [doc2vec] : Normalizing and tokenizing
+2017-05-18 12:08:50,024 [doc2vec] : PROGRESS: at 10.00% examples, 74580 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:09:00,105 [doc2vec] : PROGRESS: at 13.69% examples, 78875 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:09:10,166 [doc2vec] : PROGRESS: at 17.38% examples, 81398 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:09:17,545 Normalizing and tokenizing
+2017-05-18 12:09:17,545 [doc2vec] : Normalizing and tokenizing
+2017-05-18 12:09:20,648 [doc2vec] : PROGRESS: at 20.03% examples, 78605 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:09:30,691 [doc2vec] : PROGRESS: at 23.43% examples, 79716 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:09:40,712 [doc2vec] : PROGRESS: at 27.17% examples, 81243 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:09:48,608 Normalizing and tokenizing
+2017-05-18 12:09:48,608 [doc2vec] : Normalizing and tokenizing
+2017-05-18 12:09:51,617 [doc2vec] : PROGRESS: at 30.00% examples, 79744 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:10:01,632 [doc2vec] : PROGRESS: at 33.60% examples, 80816 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:10:11,651 [doc2vec] : PROGRESS: at 37.45% examples, 81911 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:10:18,320 Normalizing and tokenizing
+2017-05-18 12:10:18,320 [doc2vec] : Normalizing and tokenizing
+2017-05-18 12:10:21,706 [doc2vec] : PROGRESS: at 40.15% examples, 80650 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:10:31,745 [doc2vec] : PROGRESS: at 43.63% examples, 81057 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:10:41,821 [doc2vec] : PROGRESS: at 47.32% examples, 81827 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:10:49,494 Normalizing and tokenizing
+2017-05-18 12:10:49,494 [doc2vec] : Normalizing and tokenizing
+2017-05-18 12:10:52,427 [doc2vec] : PROGRESS: at 50.01% examples, 80719 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:11:02,440 [doc2vec] : PROGRESS: at 53.82% examples, 81624 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:11:12,485 [doc2vec] : PROGRESS: at 57.55% examples, 82276 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:11:18,818 Normalizing and tokenizing
+2017-05-18 12:11:18,818 [doc2vec] : Normalizing and tokenizing
+2017-05-18 12:11:22,563 [doc2vec] : PROGRESS: at 60.28% examples, 81486 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:11:32,578 [doc2vec] : PROGRESS: at 63.92% examples, 81982 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:11:42,597 [doc2vec] : PROGRESS: at 67.86% examples, 82662 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:11:48,226 Normalizing and tokenizing
+2017-05-18 12:11:48,226 [doc2vec] : Normalizing and tokenizing
+2017-05-18 12:11:52,617 [doc2vec] : PROGRESS: at 70.48% examples, 81972 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:12:02,679 [doc2vec] : PROGRESS: at 74.25% examples, 82563 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:12:12,733 [doc2vec] : PROGRESS: at 77.97% examples, 83039 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:12:18,108 Normalizing and tokenizing
+2017-05-18 12:12:18,108 [doc2vec] : Normalizing and tokenizing
+2017-05-18 12:12:22,738 [doc2vec] : PROGRESS: at 80.63% examples, 82362 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:12:32,819 [doc2vec] : PROGRESS: at 84.03% examples, 82494 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:12:42,829 [doc2vec] : PROGRESS: at 87.62% examples, 82794 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:12:49,206 Normalizing and tokenizing
+2017-05-18 12:12:49,206 [doc2vec] : Normalizing and tokenizing
+2017-05-18 12:12:52,829 [doc2vec] : PROGRESS: at 90.14% examples, 82032 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:13:02,903 [doc2vec] : PROGRESS: at 93.72% examples, 82326 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:13:12,970 [doc2vec] : PROGRESS: at 97.23% examples, 82628 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:13:20,700 End of generator
+2017-05-18 12:13:20,700 [doc2vec] : End of generator
+2017-05-18 12:13:21,008 [doc2vec] : worker thread finished; awaiting finish of 0 more threads
+2017-05-18 12:13:21,009 [doc2vec] : training on 31489845 raw words (25261931 effective words) took 305.2s, 82782 effective words/s
+2017-05-18 12:13:21,009 Epoch 10 of 10 (alpha = 0.003400)
+2017-05-18 12:13:21,009 [doc2vec] : Epoch 10 of 10 (alpha = 0.003400)
+2017-05-18 12:13:21,009 [doc2vec] : training model with 1 workers on 129070 vocabulary and 300 features, using sg=0 hs=0 sample=0.001 negative=5 window=5
+2017-05-18 12:13:21,009 [doc2vec] : expecting 1000000 sentences, matching count from corpus used for vocabulary survey
+2017-05-18 12:13:21,010 Fetching unlabeled posts from database
+2017-05-18 12:13:21,010 [doc2vec] : Fetching unlabeled posts from database
+2017-05-18 12:13:21,570 Normalizing and tokenizing
+2017-05-18 12:13:21,570 [doc2vec] : Normalizing and tokenizing
+2017-05-18 12:13:24,606 [doc2vec] : PROGRESS: at 0.04% examples, 2282 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:13:34,632 [doc2vec] : PROGRESS: at 3.35% examples, 61095 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:13:44,712 [doc2vec] : PROGRESS: at 6.83% examples, 72876 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:13:53,665 Normalizing and tokenizing
+2017-05-18 12:13:53,665 [doc2vec] : Normalizing and tokenizing
+2017-05-18 12:13:56,923 [doc2vec] : PROGRESS: at 10.00% examples, 70968 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:14:06,956 [doc2vec] : PROGRESS: at 13.56% examples, 75268 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:14:17,040 [doc2vec] : PROGRESS: at 17.19% examples, 78034 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:14:24,863 Normalizing and tokenizing
+2017-05-18 12:14:24,863 [doc2vec] : Normalizing and tokenizing
+2017-05-18 12:14:28,920 [doc2vec] : PROGRESS: at 20.03% examples, 74999 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:14:38,921 [doc2vec] : PROGRESS: at 23.62% examples, 77088 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:14:48,938 [doc2vec] : PROGRESS: at 27.25% examples, 78672 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:14:56,890 Normalizing and tokenizing
+2017-05-18 12:14:56,890 [doc2vec] : Normalizing and tokenizing
+2017-05-18 12:14:59,971 [doc2vec] : PROGRESS: at 30.00% examples, 77162 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:15:10,049 [doc2vec] : PROGRESS: at 33.60% examples, 78389 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:15:20,128 [doc2vec] : PROGRESS: at 37.40% examples, 79487 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:15:27,856 Normalizing and tokenizing
+2017-05-18 12:15:27,856 [doc2vec] : Normalizing and tokenizing
+2017-05-18 12:15:30,971 [doc2vec] : PROGRESS: at 40.03% examples, 77847 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:15:41,021 [doc2vec] : PROGRESS: at 43.75% examples, 78892 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:15:51,030 [doc2vec] : PROGRESS: at 47.40% examples, 79772 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:15:58,185 Normalizing and tokenizing
+2017-05-18 12:15:58,185 [doc2vec] : Normalizing and tokenizing
+2017-05-18 12:16:01,328 [doc2vec] : PROGRESS: at 50.01% examples, 78830 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:16:11,384 [doc2vec] : PROGRESS: at 53.57% examples, 79435 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:16:21,419 [doc2vec] : PROGRESS: at 57.28% examples, 80157 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:16:29,436 Normalizing and tokenizing
+2017-05-18 12:16:29,436 [doc2vec] : Normalizing and tokenizing
+2017-05-18 12:16:32,524 [doc2vec] : PROGRESS: at 60.03% examples, 79110 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:16:42,552 [doc2vec] : PROGRESS: at 63.79% examples, 79865 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:16:52,611 [doc2vec] : PROGRESS: at 67.66% examples, 80574 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:16:58,893 Normalizing and tokenizing
+2017-05-18 12:16:58,893 [doc2vec] : Normalizing and tokenizing
+2017-05-18 12:17:02,641 [doc2vec] : PROGRESS: at 70.22% examples, 79879 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:17:12,666 [doc2vec] : PROGRESS: at 73.96% examples, 80496 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:17:22,717 [doc2vec] : PROGRESS: at 77.62% examples, 80986 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:17:30,020 Normalizing and tokenizing
+2017-05-18 12:17:30,020 [doc2vec] : Normalizing and tokenizing
+2017-05-18 12:17:33,340 [doc2vec] : PROGRESS: at 80.01% examples, 79954 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:17:43,400 [doc2vec] : PROGRESS: at 83.53% examples, 80302 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:17:53,408 [doc2vec] : PROGRESS: at 87.13% examples, 80679 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:18:01,123 Normalizing and tokenizing
+2017-05-18 12:18:01,123 [doc2vec] : Normalizing and tokenizing
+2017-05-18 12:18:04,352 [doc2vec] : PROGRESS: at 90.01% examples, 80077 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:18:14,403 [doc2vec] : PROGRESS: at 93.64% examples, 80466 words/s, in_qsize 1, out_qsize 0
+2017-05-18 12:18:24,440 [doc2vec] : PROGRESS: at 97.13% examples, 80806 words/s, in_qsize 2, out_qsize 0
+2017-05-18 12:18:33,449 End of generator
+2017-05-18 12:18:33,449 [doc2vec] : End of generator
+2017-05-18 12:18:33,864 [doc2vec] : worker thread finished; awaiting finish of 0 more threads
+2017-05-18 12:18:33,864 [doc2vec] : training on 31489845 raw words (25261667 effective words) took 312.9s, 80746 effective words/s
+2017-05-18 12:18:33,864 Storing doc2vec object to "models/doc2vec/model"
+2017-05-18 12:18:33,864 [doc2vec] : Storing doc2vec object to "models/doc2vec/model"
+2017-05-18 12:18:33,953 [doc2vec] : saving Doc2Vec object under models/doc2vec/model, separately None
+2017-05-18 12:18:33,953 [doc2vec] : storing np array 'syn0' to models/doc2vec/model.wv.syn0.npy
+2017-05-18 12:18:34,064 [doc2vec] : storing np array 'syn1neg' to models/doc2vec/model.syn1neg.npy
+2017-05-18 12:18:34,145 [doc2vec] : not storing attribute cum_table
+2017-05-18 12:18:34,145 [doc2vec] : not storing attribute syn0norm
+2017-05-18 12:18:34,484 [doc2vec] : saved models/doc2vec/model
+2017-05-18 12:18:34,485 Finished.
+2017-05-18 12:18:34,485 [doc2vec] : Finished.
