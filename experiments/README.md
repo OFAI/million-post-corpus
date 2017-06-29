@@ -39,4 +39,4 @@ If you are interested only in certain parts, uncomment what you don't need in `r
 
 The code produces some output in the directories `logs`, `plots` and `tables`. We have included our results here, so you can see what to expect.
 
-The code also creates a directory `models`, which will be about 500 MB in size.
+The code also creates a directory `models`, which will be about 500 MB in size. The entire `experiments` folder, including the downloaded corpus, will be almost 1GB in size.
