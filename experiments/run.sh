@@ -1,7 +1,7 @@
 #!/bin/bash
 
 CORPUSDB=data/million_post_corpus/corpus.sqlite3
-DLURL=https://github.com/dietmar/one_million_posts/releases/download/v1.0/million_post_corpus.tar.bz2
+DLURL=https://github.com/OFAI/million-post-corpus/releases/download/v1.0.0/million_post_corpus.tar.bz2
 
 set -e
 set -o pipefail
