@@ -47,31 +47,31 @@ The code also creates a directory `models`, which will be about 500 MB in size. 
 
 <table>
 <tr><td>Category</td><td>Measure</td><td>BOW</td><td>MNB</td><td>NBSVM</td><td>BOCID</td><td>D2V</td><td>LSTM</td></tr>
-<tr><td rowspan="3">Negative Sentiment</td><td>Prec.</td><td>0.5521</td><td>0.5637</td><td>0.5660</td><td>0.5345</td><td><b>0.5842</b></td><td>0.5349</td></tr>
-<tr><td>Rec. </td><td>0.5109</td><td>0.4867</td><td>0.4512</td><td>0.5452</td><td>0.5624</td><td><b>0.7197</b></td></tr>
+<tr><td rowspan="3">Negative Sentiment</td><td>Precision</td><td>0.5521</td><td>0.5637</td><td>0.5660</td><td>0.5345</td><td><b>0.5842</b></td><td>0.5349</td></tr>
+<tr><td>Recall</td><td>0.5109</td><td>0.4867</td><td>0.4512</td><td>0.5452</td><td>0.5624</td><td><b>0.7197</b></td></tr>
 <tr><td>F1</td><td>0.5307</td><td>0.5224</td><td>0.5021</td><td>0.5398</td><td>0.5731</td><td><b>0.6137</b></td></tr>
-<tr><td rowspan="3">Positive Sentiment</td><td>Prec.</td><td>0.1000</td><td>0.0000</td><td><b>0.2353</b></td><td>0.0662</td><td>0.0397</td><td>0.0000</td></tr>
-<tr><td>Rec. </td><td>0.0698</td><td>0.0000</td><td>0.0930</td><td>0.2093</td><td><b>0.4651</b></td><td>0.0000</td></tr>
+<tr><td rowspan="3">Positive Sentiment</td><td>Precision</td><td>0.1000</td><td>0.0000</td><td><b>0.2353</b></td><td>0.0662</td><td>0.0397</td><td>0.0000</td></tr>
+<tr><td>Recall</td><td>0.0698</td><td>0.0000</td><td>0.0930</td><td>0.2093</td><td><b>0.4651</b></td><td>0.0000</td></tr>
 <tr><td>F1</td><td>0.0822</td><td>0.0000</td><td><b>0.1333</b></td><td>0.1006</td><td>0.0731</td><td>0.0000</td></tr>
-<tr><td rowspan="3">Off-topic</td><td>Prec.</td><td>0.2754</td><td><b>0.6190</b></td><td>0.3969</td><td>0.2252</td><td>0.2065</td><td>0.2742</td></tr>
-<tr><td>Rec. </td><td>0.2379</td><td>0.0224</td><td>0.1328</td><td>0.5121</td><td><b>0.6241</b></td><td>0.2638</td></tr>
+<tr><td rowspan="3">Off-topic</td><td>Precision</td><td>0.2754</td><td><b>0.6190</b></td><td>0.3969</td><td>0.2252</td><td>0.2065</td><td>0.2742</td></tr>
+<tr><td>Recall</td><td>0.2379</td><td>0.0224</td><td>0.1328</td><td>0.5121</td><td><b>0.6241</b></td><td>0.2638</td></tr>
 <tr><td>F1</td><td>0.2553</td><td>0.0433</td><td>0.1990</td><td><b>0.3128</b></td><td>0.3103</td><td>0.2689</td></tr>
-<tr><td rowspan="3">Inappropriate</td><td>Prec.</td><td>0.1627</td><td>0.0000</td><td>0.1765</td><td>0.1516</td><td>0.1340</td><td><b>0.1964</b></td></tr>
-<tr><td>Rec. </td><td>0.1122</td><td>0.0000</td><td>0.0495</td><td>0.3993</td><td><b>0.5776</b></td><td>0.1089</td></tr>
+<tr><td rowspan="3">Inappropriate</td><td>Precision</td><td>0.1627</td><td>0.0000</td><td>0.1765</td><td>0.1516</td><td>0.1340</td><td><b>0.1964</b></td></tr>
+<tr><td>Recall</td><td>0.1122</td><td>0.0000</td><td>0.0495</td><td>0.3993</td><td><b>0.5776</b></td><td>0.1089</td></tr>
 <tr><td>F1</td><td>0.1328</td><td>0.0000</td><td>0.0773</td><td><b>0.2198</b></td><td>0.2175</td><td>0.1401</td></tr>
-<tr><td rowspan="3">Discriminating</td><td>Prec.</td><td>0.1847</td><td>0.0000</td><td><b>0.2683</b></td><td>0.1301</td><td>0.1111</td><td>0.1136</td></tr>
-<tr><td>Rec. </td><td>0.1028</td><td>0.0000</td><td>0.0780</td><td>0.2943</td><td><b>0.3936</b></td><td>0.1418</td></tr>
+<tr><td rowspan="3">Discriminating</td><td>Precision</td><td>0.1847</td><td>0.0000</td><td><b>0.2683</b></td><td>0.1301</td><td>0.1111</td><td>0.1136</td></tr>
+<tr><td>Recall</td><td>0.1028</td><td>0.0000</td><td>0.0780</td><td>0.2943</td><td><b>0.3936</b></td><td>0.1418</td></tr>
 <tr><td>F1</td><td>0.1321</td><td>0.0000</td><td>0.1209</td><td><b>0.1804</b></td><td>0.1733</td><td>0.1262</td></tr>
-<tr><td rowspan="3">Feedb</td><td>Prec.</td><td>0.6554</td><td><b>0.7465</b></td><td>0.7356</td><td>0.5094</td><td>0.5240</td><td>0.6307</td></tr>
-<tr><td>Rec. </td><td>0.5803</td><td>0.4074</td><td>0.5219</td><td>0.6879</td><td><b>0.7056</b></td><td>0.6287</td></tr>
+<tr><td rowspan="3">Feedback</td><td>Precision</td><td>0.6554</td><td><b>0.7465</b></td><td>0.7356</td><td>0.5094</td><td>0.5240</td><td>0.6307</td></tr>
+<tr><td>Recall</td><td>0.5803</td><td>0.4074</td><td>0.5219</td><td>0.6879</td><td><b>0.7056</b></td><td>0.6287</td></tr>
 <tr><td>F1</td><td>0.6156</td><td>0.5271</td><td>0.6106</td><td>0.5853</td><td>0.6014</td><td><b>0.6297</b></td></tr>
-<tr><td rowspan="3">Personal Stories</td><td>Prec.</td><td><b>0.6981</b></td><td>0.5491</td><td>0.6916</td><td>0.5762</td><td>0.6247</td><td>0.6380</td></tr>
-<tr><td>Rec. </td><td>0.5920</td><td>0.4578</td><td>0.4788</td><td>0.7120</td><td><b>0.8123</b></td><td>0.6658</td></tr>
+<tr><td rowspan="3">Personal Stories</td><td>Precision</td><td><b>0.6981</b></td><td>0.5491</td><td>0.6916</td><td>0.5762</td><td>0.6247</td><td>0.6380</td></tr>
+<tr><td>Recall</td><td>0.5920</td><td>0.4578</td><td>0.4788</td><td>0.7120</td><td><b>0.8123</b></td><td>0.6658</td></tr>
 <tr><td>F1</td><td>0.6407</td><td>0.4993</td><td>0.5658</td><td>0.6369</td><td><b>0.7063</b></td><td>0.6516</td></tr>
-<tr><td rowspan="3">Arguments Used</td><td>Prec.</td><td><b>0.6105</b></td><td>0.5086</td><td>0.6064</td><td>0.5642</td><td>0.5657</td><td>0.5685</td></tr>
-<tr><td>Rec. </td><td>0.5215</td><td>0.3170</td><td>0.4628</td><td>0.6106</td><td><b>0.6614</b></td><td>0.6458</td></tr>
+<tr><td rowspan="3">Arguments Used</td><td>Precision</td><td><b>0.6105</b></td><td>0.5086</td><td>0.6064</td><td>0.5642</td><td>0.5657</td><td>0.5685</td></tr>
+<tr><td>Recall</td><td>0.5215</td><td>0.3170</td><td>0.4628</td><td>0.6106</td><td><b>0.6614</b></td><td>0.6458</td></tr>
 <tr><td>F1</td><td>0.5625</td><td>0.3906</td><td>0.5250</td><td>0.5865</td><td><b>0.6098</b></td><td>0.6047</td></tr>
-<tr><td rowspan="3">Wins</td><td>Prec.</td><td>2</td><td>2</td><td>2</td><td>0</td><td>1</td><td>1</td></tr>
-<tr><td>Rec.</td><td>0</td><td>0</td><td>0</td><td>0</td><td>7</td><td>1</td></tr>
+<tr><td rowspan="3">Wins</td><td>Precision</td><td>2</td><td>2</td><td>2</td><td>0</td><td>1</td><td>1</td></tr>
+<tr><td>Recall</td><td>0</td><td>0</td><td>0</td><td>0</td><td>7</td><td>1</td></tr>
 <tr><td>F1</td><td>0</td><td>0</td><td>1</td><td>3</td><td>2</td><td>2</td></tr>
 </table>
