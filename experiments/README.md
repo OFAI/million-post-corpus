@@ -5,3 +5,5 @@ Please see the [corpus website](https://ofai.github.io/million-post-corpus) for 
 TBD
 
 Reproducible: everything except LSTM
+
+Total duration: about 4.5 hours (add computer specs)
