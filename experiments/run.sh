@@ -3,6 +3,9 @@
 CORPUSDB=data/million_post_corpus/corpus.sqlite3
 DLURL=https://github.com/dietmar/one_million_posts/releases/download/v1.0/million_post_corpus.tar.bz2
 
+set -e
+set -o pipefail
+
 if [ ! -e "$CORPUSDB" ] ; then
     echo "Database file '$CORPUSDB' not found."
     echo "It is available at $DLURL"
