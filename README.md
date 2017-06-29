@@ -31,6 +31,7 @@ For each article, the data set contains the following data:
 * **Title**
 * **Body**
 
+The data is provided in the form of an [SQLite](https://www.sqlite.org/) database file. See also the commented [database schema](https://github.com/OFAI/million-post-corpus/blob/master/database_schema.md).
 
 Detailed descriptions of the post selection and annotation procedures are given in the paper.
 
