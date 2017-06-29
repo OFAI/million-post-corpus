@@ -14,9 +14,8 @@ from sklearn.metrics import precision_score, recall_score, f1_score
 from sklearn.model_selection import StratifiedShuffleSplit
 from sklearn.preprocessing import OneHotEncoder
 
-from standarddni.mylogging import logger
-from standarddni.nlp.simple import normalize, micro_tokenize
-
+from customlogging import logger
+from preprocessing import normalize, micro_tokenize
 import conf
 
 class LSTMModel(object):

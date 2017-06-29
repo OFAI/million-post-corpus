@@ -6,7 +6,7 @@ from gensim.models.word2vec import Word2Vec
 import numpy
 from sklearn.cluster import KMeans
 
-from standarddni.mylogging import logger
+from customlogging import logger
 
 import conf
 
