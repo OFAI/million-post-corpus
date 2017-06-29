@@ -14,17 +14,14 @@ if [ ! -e "$CORPUSDB" ] ; then
         exit 1
     fi
     mkdir -p data
-    cd data
     if which wget > /dev/null ; then
-        wget "$DLURL"
+        wget -q -O- "$DLURL" | tar -xj -C data
     elif which curl > /dev/null ; then
-        curl -L -O "$DLURL"
+        curl -L "$DLURL" | tar -xj -C data
     else
         echo 'You need to install either wget or curl to download the data.'
         exit 1
     fi
-    tar -xjf million_post_corpus.tar.bz2
-    cd ..
 fi
 
 export PYTHONHASHSEED=123456
