@@ -122,7 +122,7 @@ The data set was first presented at [SIGIR 2017](http://sigir.org/sigir2017/):
 Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)  
 Tokyo, Japan, August 2017
 
-Please cite this paper if you use the data set (BibTex below). You can download a [preprint version of the paper here](https://github.com/OFAI/million-post-corpus/raw/gh-pages/assets/SIGIR_2017_preprint.pdf).
+Please cite this paper if you use the data set (BibTex below). You can download a [preprint version of the paper here](https://github.com/OFAI/million-post-corpus/raw/gh-pages/assets/SIGIR_2017_preprint.pdf). The definitive version of the paper will be available under DOI [10.1145/3077136.3080711](http://dx.doi.org/10.1145/3077136.3080711).
 
 ```
 @InProceedings{Schabus2017,
