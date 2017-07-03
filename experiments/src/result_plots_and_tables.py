@@ -166,9 +166,8 @@ def make_plot(categories, methods, precisions, recalls, f1s, filename):
     axes[2].set_xlim((-2 * width, xs[-1] + 10 * width))
 
     f.tight_layout()
-    plotfile = os.path.join(conf.PLOTDIR, 'results.png')
-    f.savefig(plotfile)
-    print('Result plot written to %s' % plotfile)
+    f.savefig(filename)
+    print('Result plot written to %s' % filename)
 
 if __name__ == '__main__':
     con = sqlite3.connect(conf.RESULTDB)
