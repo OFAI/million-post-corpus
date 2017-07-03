@@ -13,15 +13,18 @@ if [ ! -e "$CORPUSDB" ] ; then
     if [ "$yn" != 'y' ] ; then
         exit 1
     fi
+    echo -n 'Downloading... '
     mkdir -p data
     if which wget > /dev/null ; then
         wget -q -O- "$DLURL" | tar -xj -C data
     elif which curl > /dev/null ; then
         curl -L "$DLURL" | tar -xj -C data
     else
+        echo 'ERROR: Download unsuccessful.'
         echo 'You need to install either wget or curl to download the data.'
         exit 1
     fi
+    echo 'done.'
 fi
 
 export PYTHONHASHSEED=123456
