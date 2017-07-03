@@ -1,0 +1,3 @@
+experiments/src/__pycache__/**
+experiments/data/**
+experiments/models/**
