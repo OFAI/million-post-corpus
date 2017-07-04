@@ -107,6 +107,22 @@ Furthermore, this subset can be used to compute [Cohen's Kappa](https://en.wikip
 
 ![inter-rater agreement chart](images/inter_rater_agreement.png)
 
+The 10 topic paths with the most posts are listed below (see the [top 100 here](most_active_topics.md)). Topics from the selected time window (2015-06-01 to 2016-05-31) with broad general interest show up, like the [European migrant crisis](https://en.wikipedia.org/wiki/European_migrant_crisis), the [2016 Austrian presidential elections](https://en.wikipedia.org/wiki/Austrian_presidential_election,_2016) and the [Syrian Civil War](https://en.wikipedia.org/wiki/Syrian_Civil_War).
+
+<table>
+<tr><th>Posts</th><th>Topic Path</th></tr>
+<tr><td>44,329</td><td>Newsroom/Panorama/Flucht/Fluechtlinge_in_Oesterreich</td></tr>
+<tr><td>30,604</td><td>Newsroom/Panorama/Flucht/Flucht_und_Politik</td></tr>
+<tr><td>20,177</td><td>Newsroom/Inland/bundespraesi</td></tr>
+<tr><td>16,896</td><td>Newsroom/International/Nahost/syrien</td></tr>
+<tr><td>16,362</td><td>Newsroom/Panorama/Weltchronik</td></tr>
+<tr><td>16,334</td><td>Newsroom/Panorama/Chronik</td></tr>
+<tr><td>14,516</td><td>Newsroom/Web/Netzpolitik</td></tr>
+<tr><td>14,112</td><td>Newsroom/Web/Netzpolitik/Hasspostings</td></tr>
+<tr><td>13,463</td><td>Newsroom/Wirtschaft/Wirtschaftpolitik/Finanzmaerkte/Griechenlandkrise</td></tr>
+<tr><td>12,951</td><td>Newsroom/Inland/Parteien/fp</td></tr>
+</table>
+
 ## License
 
 This data set is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
