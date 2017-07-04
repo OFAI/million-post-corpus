@@ -107,7 +107,7 @@ Furthermore, this subset can be used to compute [Cohen's Kappa](https://en.wikip
 
 ![inter-rater agreement chart](images/inter_rater_agreement.png)
 
-The distribution of posts to topic paths is illustrated below (regular space on the left, log space on the right).
+The distribution of posts to topic paths is illustrated below (regular scale on the left, log scale on the right).
 
 ![](images/topicplot.png)
 
