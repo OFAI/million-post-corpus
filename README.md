@@ -107,6 +107,10 @@ Furthermore, this subset can be used to compute [Cohen's Kappa](https://en.wikip
 
 ![inter-rater agreement chart](images/inter_rater_agreement.png)
 
+The distribution of posts to topic paths is illustrated below (regular space on the left, log space on the right).
+
+![](images/topicplot.png)
+
 The 10 topic paths with the most posts are listed below (see the [top 100 here](most_active_topics.md)). Topics from the selected time window (2015-06-01 to 2016-05-31) with broad general interest show up, like the [European migrant crisis](https://en.wikipedia.org/wiki/European_migrant_crisis), the [2016 Austrian presidential elections](https://en.wikipedia.org/wiki/Austrian_presidential_election,_2016) and the [Syrian Civil War](https://en.wikipedia.org/wiki/Syrian_Civil_War).
 
 <table>
@@ -123,7 +127,7 @@ The 10 topic paths with the most posts are listed below (see the [top 100 here](
 <tr><td>12,951</td><td>Newsroom/Inland/Parteien/fp</td></tr>
 </table>
 
-The top 10 category paths with respect to category prevalence are given in [category_per_topic.md](category_per_topic.md).
+The top 10 category paths with respect to category prevalence are given in [category_per_topic.md](category_per_topic.md)
 
 ## License
 
@@ -135,12 +139,12 @@ This data set is licensed under a [Creative Commons Attribution-NonCommercial-Sh
 
 The data set was first presented at [SIGIR 2017](http://sigir.org/sigir2017/):
 
-> Dietmar Schabus, Marcin Skowron, Martin Trapp  
-**One Million Posts: A Data Set of German Online Discussions**  
-Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)  
+> Dietmar Schabus, Marcin Skowron, Martin Trapp
+**One Million Posts: A Data Set of German Online Discussions**
+Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)
 Tokyo, Japan, August 2017
 
-Please cite this paper if you use the data set (BibTex below). You can download a [preprint version of the paper here](https://github.com/OFAI/million-post-corpus/raw/gh-pages/assets/SIGIR_2017_preprint.pdf). The definitive version of the paper will be available under DOI [10.1145/3077136.3080711](http://dx.doi.org/10.1145/3077136.3080711).
+Please cite this paper if you use the data set (BibTeX below). You can download a [preprint version of the paper here](https://github.com/OFAI/million-post-corpus/raw/gh-pages/assets/SIGIR_2017_preprint.pdf). The definitive version of the paper will be available under DOI [10.1145/3077136.3080711](http://dx.doi.org/10.1145/3077136.3080711).
 
 ```
 @InProceedings{Schabus2017,
