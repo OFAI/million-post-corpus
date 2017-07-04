@@ -1,6 +1,6 @@
 # Category Prevalence per Topic Path
 
-The following tables list for the respective category the topic paths which have the most prevalence of positively labeled instances. For example, for SentimentNegative, the first row shows a topic path with 83% of 387. This means that we have 387 posts that were submitted to articles which belong to the topic path "Newsroom/Panorama/Flucht/Fluchtgeschichten/Serie_Aufderflucht" and for which we have an annotator judgement with regard to SentimentNegative. 82 percent of these (i.e., 317 posts) were labeled to actually have the SentimentNegative quality, and the remaining 18 percent (70 posts) were labeled not to belong to the SentimentNegative category.
+The following tables list for the respective category the topic paths which have the most prevalence of positively labeled instances. For example, for SentimentNegative, the first row shows a topic path with 82% of 387. This means that we have 387 posts that were submitted to articles which belong to the topic path "Newsroom/Panorama/Flucht/Fluchtgeschichten/Serie_Aufderflucht" and for which we have an annotator judgement with regard to SentimentNegative. 82 percent of these (i.e., 317 posts) were labeled to actually have the SentimentNegative quality, and the remaining 18 percent (70 posts) were labeled not to belong to the SentimentNegative category.
 
 Topic paths which have less than 20 labeled posts are not listed.
 
