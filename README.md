@@ -123,6 +123,8 @@ The 10 topic paths with the most posts are listed below (see the [top 100 here](
 <tr><td>12,951</td><td>Newsroom/Inland/Parteien/fp</td></tr>
 </table>
 
+The top 10 category paths with respect to category prevalence are given in [category_per_topic.md](category_per_topic.md).
+
 ## License
 
 This data set is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
