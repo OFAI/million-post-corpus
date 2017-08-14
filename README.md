@@ -4,7 +4,7 @@
 
 This is the home of the "One Million Posts" corpus, an annotated data set consisting of user comments posted to an Austrian newspaper website (in German language).
 
-This data set will be presented as a short paper at the [40th International ACM SIGIR Conference on Research and Development in Information Retrieval](http://sigir.org/sigir2017/) (SIGIR 2017). See the [Citation section](#citation) below.
+This data set was presented as a short paper at the [40th International ACM SIGIR Conference on Research and Development in Information Retrieval](http://sigir.org/sigir2017/) (SIGIR 2017). See the [Citation section](#citation) below.
 
 ## Data Set Description
 
@@ -142,17 +142,20 @@ The data set was first presented at [SIGIR 2017](http://sigir.org/sigir2017/):
 > Dietmar Schabus, Marcin Skowron, Martin Trapp
 **One Million Posts: A Data Set of German Online Discussions**
 Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)
+pp. 1241-1244
 Tokyo, Japan, August 2017
 
-Please cite this paper if you use the data set (BibTeX below). You can download a [preprint version of the paper here](https://github.com/OFAI/million-post-corpus/raw/gh-pages/assets/SIGIR_2017_preprint.pdf). The definitive version of the paper will be available under DOI [10.1145/3077136.3080711](http://dx.doi.org/10.1145/3077136.3080711).
+Please cite this paper if you use the data set (BibTeX below). You can download a [preprint version of the paper here](https://github.com/OFAI/million-post-corpus/raw/gh-pages/assets/SIGIR_2017_preprint.pdf). The definitive version of the paper is available under DOI [10.1145/3077136.3080711](http://dx.doi.org/10.1145/3077136.3080711).
 
 ```
 @InProceedings{Schabus2017,
   Author    = {Dietmar Schabus and Marcin Skowron and Martin Trapp},
   Title     = {One Million Posts: A Data Set of German Online Discussions},
   Booktitle = {Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)},
-  Year      = {2017 (accepted)},
+  Pages     = {1241--1244},
+  Year      = {2017},
   Address   = {Tokyo, Japan},
+  Doi       = {10.1145/3077136.3080711},
   Month     = aug
 }
 ```
