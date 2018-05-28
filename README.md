@@ -6,6 +6,8 @@ This is the home of the "One Million Posts" corpus, an annotated data set consis
 
 This data set was presented as a short paper at the [40th International ACM SIGIR Conference on Research and Development in Information Retrieval](http://sigir.org/sigir2017/) (SIGIR 2017). See the [Citation section](#citation) below.
 
+Futhermore, a follow-up paper using this data set was presented in the industry track at the [11th International Conference on Language Resources and Evaluation](http://lrec2018.lrec-conf.org/) (LREC 2018). See the [Citation section](#citation) below.
+
 ## Data Set Description
 
 [DER STANDARD](http://derstandard.at) is an Austrian daily broadsheet newspaper. On the newspaper's website, there is a discussion section below each news article where readers engage in online discussions. The data set contains a selection of user posts from the 12 month time span from 2015-06-01 to 2016-05-31. There are 11,773 labeled and 1,000,000 unlabeled posts in the data set. The labeled posts were annotated by professional forum moderators employed by the newspaper.
@@ -139,10 +141,10 @@ This data set is licensed under a [Creative Commons Attribution-NonCommercial-Sh
 
 The data set was first presented at [SIGIR 2017](http://sigir.org/sigir2017/):
 
-> Dietmar Schabus, Marcin Skowron, Martin Trapp
-**One Million Posts: A Data Set of German Online Discussions**
-Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)
-pp. 1241-1244
+> Dietmar Schabus, Marcin Skowron, Martin Trapp<br>
+**One Million Posts: A Data Set of German Online Discussions**<br>
+Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)<br>
+pp. 1241-1244<br>
 Tokyo, Japan, August 2017
 
 Please cite this paper if you use the data set (BibTeX below). You can download a [preprint version of the paper here](https://github.com/OFAI/million-post-corpus/raw/gh-pages/assets/SIGIR_2017_preprint.pdf). The definitive version of the paper is available under DOI [10.1145/3077136.3080711](http://dx.doi.org/10.1145/3077136.3080711).
@@ -159,6 +161,28 @@ Please cite this paper if you use the data set (BibTeX below). You can download 
   Month     = aug
 }
 ```
+Furthermore, this data set was used in a follow-up paper presented at [LREC 2018](http://lrec2018.lrec-conf.org/):
+
+> Dietmar Schabus and Marcin Skowron<br>
+**Academic-Industrial Perspective on the Development and Deployment of a Moderation System for a Newspaper Website**<br>
+Proceedings of the 11th International Conference on Language Resources and Evaluation (LREC 2018)<br>
+pp. 1602-1605<br>
+Miyazaki, Japan, May 2018
+
+```
+@InProceedings{Schabus2018,
+  author    = {Dietmar Schabus and Marcin Skowron},
+  title     = {Academic-Industrial Perspective on the Development and Deployment of a Moderation System for a Newspaper Website},
+  booktitle = {Proceedings of the 11th International Conference on Language Resources and Evaluation (LREC)},
+  year      = {2018},
+  address   = {Miyazaki, Japan},
+  month     = may,
+  pages     = {1602-1605},
+  abstract  = {This paper describes an approach and our experiences from the development, deployment and usability testing of a Natural Language Processing (NLP) and Information Retrieval system that supports the moderation of user comments on a large newspaper website. We highlight some of the differences between industry-oriented and academic research settings and their influence on the decisions made in the data collection and annotation processes, selection of document representation and machine learning methods. We report on classification results, where the problems to solve and the data to work with come from a commercial enterprise. In this context typical for NLP research, we discuss relevant industrial aspects. We believe that the challenges faced as well as the solutions proposed for addressing them can provide insights to others working in a similar setting.},
+  url       = {http://www.lrec-conf.org/proceedings/lrec2018/summaries/8885.html},
+}
+```
+
 ## Experiments
 
 The code and instructions to reproduce the experimental results presented in the paper can be found in the [experiments folder in the GitHub repository](https://github.com/OFAI/million-post-corpus/tree/master/experiments).
