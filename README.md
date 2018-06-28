@@ -169,6 +169,8 @@ Proceedings of the 11th International Conference on Language Resources and Evalu
 pp. 1602-1605<br>
 Miyazaki, Japan, May 2018
 
+[Full paper available for download from LREC](http://www.lrec-conf.org/proceedings/lrec2018/summaries/8885.html).
+
 ```
 @InProceedings{Schabus2018,
   author    = {Dietmar Schabus and Marcin Skowron},
